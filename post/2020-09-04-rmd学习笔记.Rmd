@@ -1,0 +1,388 @@
+---
+title: Rmd学习笔记
+author: 小雨
+date: '2020-09-04'
+slug: rmd学习笔记
+categories:
+  - notes
+tags:
+  - R Markdown
+draft: yes
+---
+# Basics
+
+R markdown 由三部分组成：metadata（也被称为YAML metadata,注意**缩进**）, text, code(```{r} ```或者`r `(incline code)。一些拓展应用有Homework assignments([Rpub](https://rpubs.com/))、写journal articles, 做dashbords、写书、搭建网站
+
+- Rob J Hyndman’s personal website: https://robjhyndman.com (a very comprehensive academic website).
+- Amber Thomas’s personal website: https://amber.rbind.io (a rich project portfolio).
+- Emi Tanaka’s personal website: https://emitanaka.github.io (in particular, check out the beautiful showcase page).
+
+> reproducible workflow is important!!!, try to make your reports reproducible.
+
+## 编译
+
+`knit`, `rmarkdown::render('xx.Rmd','pdf_format')`
+
+**注意**： Rendering an Rmd document in a new R session means that none of the objects in your current R session (e.g., those you created in your R console) are available to that session.2 Reproducibility is the main reason that RStudio uses a new R session to render your Rmd documents: in most cases, you may want your documents to continue to work the next time you open R, or in other people’s computing environments.（即：尽量不要在控制台创建额外的变量，降低可重复性）。
+
+## cheatsheets
+
+https://rstudio.com/resources/cheatsheets/
+
+## 输出格式
+
+- `beamer_presentation`
+- `context_document`
+- `github_document`
+- `html_document`
+- `ioslides_presentation`
+- `md_document`
+- `odt_document`
+- `pdf_document`
+- `powerpoint_presentation`
+- `rtf_document`
+- `slidy_presentation`
+- `word_document`
+- `output: pacakage name::file format`（如果输出的格式依赖于其他包）
+
+输出格式参数有toc, toc_depth, dev...举例：
+
+```
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    includes:
+      in_header: header.html
+```
+## markdown 语法
+
+[pandoc manual](https://pandoc.org/MANUAL.html)
+
+### 行内格式
+1. 斜体；`_text_`
+2. 黑体：`*text*`
+3. script: `~x~`(super); `^x^`(sub)
+4. links: `[text](link)`
+5. image: `![text or image title](path/to/image)`
+6. reference: bibtex(add a field named `bibliography`to the YAML medadata, set its value to the path of the Bibtex)
+7. dash: `---`
+
+> To include  $n$ literal backticks, use at least$n + 1$backticks outside。
+
+### Block-level elements
+
+> If you do not want a certain heading to be numbered, you can add {-} or {.unnumbered} after the heading
+
+### 数学表达式
+
+Latex语法。
+- 行内：`$..$`
+- display: `$$..$$`
+
+
+## R code chunks
+
+- shortcut: `Ctrl+Alt+I`
+- options: [ref](https://yihui.org/knitr/options/)
+
+```` markdown
+```{r}
+# execute code if the date is later than a specified day
+do_it = Sys.Date() > '2018-02-14'
+```
+````
+
+```` markdown
+```{r,echo=TRUE,collapse=TRUE}
+x = rnorm(100)
+rnorm(10)
+```
+````
+
+### Figures
+
+````markdown
+`r ''````{r}
+plot(cars, pch = 18)
+```
+````
+
+### Tables
+kable, kableExtra packages
+
+```{r tables-mtcars,collapse=TRUE}
+knitr::kable(iris[1:5, ], caption = 'A caption')
+```
+
+## 交互文档
+
+### HTML
+
+[See more examples](https://www.htmlwidgets.org/)
+
+### Shiny documents
+
+`library(shiny)`
+
+# Documents
+
+## HTML_document
+
+`output: html_document`
+
+### Table of contents
+
+```
+toc_depth: 
+toc: true(false)
+toc_float: true(false)
+  collapsed: true(false)
+  smooth_scroll: false
+```
+
+### Section numbering
+
+`number_sections: true`
+
+### Tabbed sections
+
+```
+## xx{.tabset}
+
+###
+###
+```
+
+### theme and style
+
+1. theme, Boostrap theme to use for the page.
+
+` default, cerulean, journal, flatly, darkly, readable, spacelab, united, cosmo, lumen, paper, sandstone, simplex, and yeti`
+
+2. highlight
+
+`default, tango, pygments, kate, monochrome, espresso, zenburn, haddock, breezedark, and textmate`
+
+3. custom
+
+`css: style.css`
+
+### Figure options
+
+- fig_width, fig_height
+- fig_retina
+- fig_caption
+- dev
+
+### Data frame printing
+
+`df_print: default(kable, tibble, paged)`
+
+## Notebook
+
+能够实现行内交互。
+
+## PDF document
+
+```
+output: 
+  pdf_document:
+    toc: true
+    toc_depth:2
+    number_sections: true
+    fig_width: xx
+    fig_height: xx
+    fig_caption: true(false)
+    citation_package: natbib(or biblatex)
+  geometry: xx
+  fontsize: xx
+```
+the parameters are well integrated with Latex engines(options),similar with html_document output.
+
+[see more details](https://bookdown.org/yihui/rmarkdown/pdf-document.html)
+
+## Word document
+
+```
+output: 
+  word_document:
+    reference_docx: my-styles.docx
+```
+
+[see more details](https://rmarkdown.rstudio.com/articles_docx.html.)
+
+## Markdown document
+
+```
+output:
+  md_document:
+    variant: markdown_github(or markdown, markdown_strict, markdown_mmd, markdown_phpextra...)
+```
+## R package vignette
+
+````
+---
+title: "Your Vignette Title"
+output: 
+  rmarkdown::html_vignette:
+    css: mystyles.css(or default)
+
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{Your Vignette Title}
+  %\VignetteEncoding{UTF-8}
+---
+````
+Most options for html_document (Section 3.1) also work for html_vignette, except fig_retina and theme, 
+
+# Presentation
+
+## ioslides presentation
+
+````
+---
+title: "Habits"
+author: John Doe
+date: March 22, 2005
+output: ioslides_presentation
+---
+
+# In the morning
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+## Breakfast
+
+- Eat eggs
+- Drink coffee
+
+# In the evening
+
+## Dinner
+
+- Eat spaghetti
+- Drink wine
+
+---
+
+```{r, cars, fig.cap="A scatterplot.", echo=FALSE}
+plot(cars)
+```
+
+## Going to sleep
+
+- Get in bed
+- Count sheep
+````
+- `#` creating slides with heading tags(sectinos)
+- `---`creating slides without header
+- `incremental: true`, render bullets incrementally. below shows how to render bullets incrementally for some slides.
+
+```
+> - Eat eggs
+> - Drink coffee
+```
+### visual appearance
+
+1. size: 
+````
+---
+output:
+  ioslides_presentation:
+    widescreen: true
+    smaller: true
+---
+````
+2. transition speed:
+
+````
+---
+output:
+  ioslides_presentation:
+    transition: slower(default, faster, or numeric value of seconds)
+---
+````
+3. build slides:
+
+content shuld be displayed incrementally.
+````
+## Getting up{.build}
+````
+4. Background images:
+
+`## Getting up {data-background=foo.png data-background-size=cover}`
+
+other attributes: data-bacground-position, data-background-repeat.
+
+### Code highlighting
+
+````
+### <b>
+x <- 10
+y <- x * 2
+### </b>
+````
+### Logo
+
+````
+---
+output:
+  ioslides_presentation:
+    logo: logo.png
+---
+````
+### Adcanced layout
+
+Center header or contents: 
+`## Dinner {.flexbox .vcenter}`
+
+````
+<div class="centered">
+This text is centered.
+</div>
+````
+Two columns:
+````
+
+<div class="columns-2">
+  ![](image.png)
+
+  - Bullet 1
+  - Bullet 2
+  - Bullet 3
+</div>
+````
+
+### Text color:
+
+````
+<div class="red2(red, blue, green, yellow, gray, red3, blue2, blue3)">
+This text is red
+</div>
+````
+
+### Prensentation mode:
+
+ To enable presenter mode add ?presentme=true to the URL of the presentation.
+ 
+add notes to a slide:
+
+````
+<div class="notes">
+This is my *note*.
+
+- It can contain markdown
+- like this list
+</div>
+````
+
+## Slidy presentation
+
+## Beamer presentation
+
+[see](https://bookdown.org/yihui/rmarkdown/beamer-presentation.html)
+
