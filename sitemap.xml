@@ -3,257 +3,247 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://caroxiaoyu.github.io/about/</loc>
     <lastmod>2020-09-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-09-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/notes/</loc>
-    <lastmod>2020-09-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2020-09-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/r-markdown/</loc>
-    <lastmod>2020-09-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/rmd%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2020-09-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-09-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2020-09-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/daily/</loc>
+    <loc>https://caroxiaoyu.github.io/categories/</loc>
     <lastmod>2020-09-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/%E8%87%AA%E8%B4%A3.zh-ch/</loc>
+    <loc>https://caroxiaoyu.github.io/categories/daily/</loc>
     <lastmod>2020-09-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/%E9%9A%8F%E7%AC%94.zh-ch/</loc>
+    <loc>https://caroxiaoyu.github.io/</loc>
+    <lastmod>2020-09-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://caroxiaoyu.github.io/post/</loc>
+    <lastmod>2020-09-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://caroxiaoyu.github.io/post/%E8%87%AA%E8%B4%A3.zh-ch/</loc>
+    <lastmod>2020-09-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://caroxiaoyu.github.io/post/%E9%9A%8F%E7%AC%94.zh-ch/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/%E9%80%9B%E8%8F%9C%E5%B8%82%E5%9C%BA.zh-ch/</loc>
+    <loc>https://caroxiaoyu.github.io/post/%E9%80%9B%E8%8F%9C%E5%B8%82%E5%9C%BA.zh-ch/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99.zh-ch/</loc>
+    <loc>https://caroxiaoyu.github.io/post/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99.zh-ch/</loc>
     <lastmod>2020-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/algorithms/</loc>
+    <loc>https://caroxiaoyu.github.io/tags/algorithms/</loc>
     <lastmod>2020-06-06T09:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/2020-06-06-changes-in-java-string/</loc>
+    <loc>https://caroxiaoyu.github.io/posts/2020-06-06-changes-in-java-string/</loc>
     <lastmod>2020-06-06T09:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/</loc>
+    <loc>https://caroxiaoyu.github.io/categories/notes/</loc>
     <lastmod>2020-06-06T09:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/2020-05-01-algorithms-graphs/</loc>
+    <loc>https://caroxiaoyu.github.io/posts/</loc>
+    <lastmod>2020-06-06T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://caroxiaoyu.github.io/tags/</loc>
+    <lastmod>2020-06-06T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://caroxiaoyu.github.io/posts/2020-05-01-algorithms-graphs/</loc>
     <lastmod>2020-05-01T09:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/programming-language/</loc>
+    <loc>https://caroxiaoyu.github.io/tags/programming-language/</loc>
     <lastmod>2020-04-29T09:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/2020-04-29-subtyping/</loc>
+    <loc>https://caroxiaoyu.github.io/posts/2020-04-29-subtyping/</loc>
     <lastmod>2020-04-29T09:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/racket/</loc>
+    <loc>https://caroxiaoyu.github.io/tags/racket/</loc>
     <lastmod>2020-02-29T09:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/2020-02-29-racket/</loc>
+    <loc>https://caroxiaoyu.github.io/posts/2020-02-29-racket/</loc>
     <lastmod>2020-02-29T09:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/sml/</loc>
+    <loc>https://caroxiaoyu.github.io/tags/sml/</loc>
     <lastmod>2019-12-30T09:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/2019-12-30-standardml-notes/</loc>
+    <loc>https://caroxiaoyu.github.io/posts/2019-12-30-standardml-notes/</loc>
     <lastmod>2019-12-30T09:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/rpa/</loc>
+    <loc>https://caroxiaoyu.github.io/tags/rpa/</loc>
     <lastmod>2019-11-23T09:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/2019-11-23-uipath-orchestrator/</loc>
+    <loc>https://caroxiaoyu.github.io/posts/2019-11-23-uipath-orchestrator/</loc>
     <lastmod>2019-11-23T09:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/2019-11-18-uipath-best-practice/</loc>
+    <loc>https://caroxiaoyu.github.io/posts/2019-11-18-uipath-best-practice/</loc>
     <lastmod>2019-11-18T09:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/javascript/</loc>
+    <loc>https://caroxiaoyu.github.io/tags/javascript/</loc>
     <lastmod>2019-11-10T09:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/2019-11-10-encodeuricomponent/</loc>
+    <loc>https://caroxiaoyu.github.io/posts/2019-11-10-encodeuricomponent/</loc>
     <lastmod>2019-11-10T09:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/2019-10-27-uipath/</loc>
+    <loc>https://caroxiaoyu.github.io/posts/2019-10-27-uipath/</loc>
     <lastmod>2019-10-27T09:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/2019-03-28-javascript-comparison/</loc>
+    <loc>https://caroxiaoyu.github.io/posts/2019-03-28-javascript-comparison/</loc>
     <lastmod>2019-03-28T09:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/2019-03-22-js-tips/</loc>
+    <loc>https://caroxiaoyu.github.io/posts/2019-03-22-js-tips/</loc>
     <lastmod>2019-03-22T09:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/2019-03-08-es6-bind-trick/</loc>
+    <loc>https://caroxiaoyu.github.io/posts/2019-03-08-es6-bind-trick/</loc>
     <lastmod>2019-03-08T09:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/2019-03-08-object-assign-with-accessor-descriptor/</loc>
+    <loc>https://caroxiaoyu.github.io/posts/2019-03-08-object-assign-with-accessor-descriptor/</loc>
     <lastmod>2019-03-08T09:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/vue.js/</loc>
+    <loc>https://caroxiaoyu.github.io/tags/vue.js/</loc>
     <lastmod>2019-01-25T09:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/2019-01-19-vue-navigation-guards/</loc>
+    <loc>https://caroxiaoyu.github.io/posts/2019-01-19-vue-navigation-guards/</loc>
     <lastmod>2019-01-25T09:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/2019-01-18-es6/</loc>
+    <loc>https://caroxiaoyu.github.io/posts/2019-01-18-es6/</loc>
     <lastmod>2019-01-18T16:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/2017-02-18-hash/</loc>
+    <loc>https://caroxiaoyu.github.io/posts/2017-02-18-hash/</loc>
     <lastmod>2017-02-18T19:19:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/php/</loc>
+    <loc>https://caroxiaoyu.github.io/tags/php/</loc>
     <lastmod>2017-01-11T18:39:17+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/2017-01-11-php-lambada/</loc>
+    <loc>https://caroxiaoyu.github.io/posts/2017-01-11-php-lambada/</loc>
     <lastmod>2017-01-11T18:39:17+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/ruby/</loc>
+    <loc>https://caroxiaoyu.github.io/tags/ruby/</loc>
     <lastmod>2016-12-08T22:54:49+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/2016-12-08-ruby-notes/</loc>
+    <loc>https://caroxiaoyu.github.io/posts/2016-12-08-ruby-notes/</loc>
     <lastmod>2016-12-08T22:54:49+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/linux/</loc>
+    <loc>https://caroxiaoyu.github.io/tags/linux/</loc>
     <lastmod>2016-11-29T21:08:52+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/2016-11-29-iptables-usage/</loc>
+    <loc>https://caroxiaoyu.github.io/posts/2016-11-29-iptables-usage/</loc>
     <lastmod>2016-11-29T21:08:52+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/2016-11-05-php-composer-autoload/</loc>
+    <loc>https://caroxiaoyu.github.io/posts/2016-11-05-php-composer-autoload/</loc>
     <lastmod>2016-11-05T02:42:06+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/life/</loc>
+    <loc>https://caroxiaoyu.github.io/categories/life/</loc>
     <lastmod>2016-10-22T16:56:54+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/2016-10-22-z/</loc>
+    <loc>https://caroxiaoyu.github.io/posts/2016-10-22-z/</loc>
     <lastmod>2016-10-22T16:56:54+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
-    <lastmod>2016-08-24T17:51:42+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2015-07-23-r-rmarkdown/</loc>
+    <loc>https://caroxiaoyu.github.io/post/2015-07-23-r-rmarkdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/plot/</loc>
+    <loc>https://caroxiaoyu.github.io/tags/plot/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/r/</loc>
+    <loc>https://caroxiaoyu.github.io/categories/r/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/regression/</loc>
+    <loc>https://caroxiaoyu.github.io/tags/r-markdown/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://caroxiaoyu.github.io/tags/regression/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
