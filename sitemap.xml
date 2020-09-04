@@ -43,6 +43,31 @@
   </url>
   
   <url>
+    <loc>/categories/daily/</loc>
+    <lastmod>2020-09-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/%E8%87%AA%E8%B4%A3.zh-ch/</loc>
+    <lastmod>2020-09-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/%E9%9A%8F%E7%AC%94.zh-ch/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/%E9%80%9B%E8%8F%9C%E5%B8%82%E5%9C%BA.zh-ch/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99.zh-ch/</loc>
+    <lastmod>2020-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/algorithms/</loc>
     <lastmod>2020-06-06T09:00:00+00:00</lastmod>
   </url>
