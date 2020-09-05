@@ -1,0 +1,44 @@
+---
+title: reading from connection
+author: xiaoyu
+date: '2020-09-05'
+slug: reading-from-connection
+categories:
+  - R
+tags:
+  - data manipulation
+draft: yes
+---
+1. file 
+
+arguments: r, w, a ,rb, wb, ab
+```
+> ## Create a connection to 'foo.txt'
+> con <- file("foo.txt")       
+> 
+> ## Open connection to 'foo.txt' in read-only mode
+> open(con, "r")               
+> 
+> ## Read from the connection
+> data <- read.csv(con)        
+> 
+> ## Close the connection
+> close(con)                   
+```
+2. gzfile: `readLines`
+```
+> ## Open connection to gz-compressed text file
+> con <- gzfile("words.gz")   
+> x <- readLines(con, 10) 
+> x
+ [1] "1080"     "10-point" "10th"     "11-point" "12-point" "16-point"
+ [7] "18-point" "1st"      "2"        "20-point"
+```
+3. URL
+```
+ con <- url("http://www.jhsph.edu", "r")  
+ x <- readLines(con)  
+```
+
+This is good for reproducible analysis!
+

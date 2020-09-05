@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R on From xiaoyu</title>
-    <link>/categories/r/</link>
-    <description>Recent content in R on From xiaoyu</description>
+    <title>data manipulation on From xiaoyu</title>
+    <link>/tags/data-manipulation/</link>
+    <description>Recent content in data manipulation on From xiaoyu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>xiaoyu</copyright>
     <lastBuildDate>Sat, 05 Sep 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/data-manipulation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -33,17 +33,6 @@
 先读取部分数据（n_max），获取变量信息
 读取压缩文件
 &amp;gt; logs &amp;lt;- read_csv(&amp;quot;data/2016-07-19.csv.bz2&amp;quot;, n_max = 10)Parsed with column specification:cols(date = col_date(format = &amp;quot;&amp;quot;),time = col_time(format = &amp;quot;&amp;quot;),size = col_double(),r_version = col_character(),r_arch = col_character(),r_os = col_character(),package = col_character(),version = col_character(),country = col_character(),ip_id = col_double())</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
     </item>
     
   </channel>

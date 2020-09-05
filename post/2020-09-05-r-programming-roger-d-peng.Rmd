@@ -1,0 +1,25 @@
+---
+title: R programming(Roger D.peng)
+author: xiaoyu
+date: '2020-09-05'
+slug: r-programming-roger-d-peng
+categories:
+  - notes
+tags:
+  - book
+draft: yes
+---
+Here are some tips when I am reading  the R programming written by Roger D.peng.
+
+# Function
+- A variable number of arguments can be specified using the special ... argument in a function definition, is often used when extending another function and you don’t want to copy the entire argument list of the original function
+
+- Functions always return the last expression evaluated in the function body.Note that there is a return() function that can be used to return an explicity value from a function, but it is rarely used in R.
+
+- Function, together with an environments, makes up the "closure" or "function closure".
+
+# Looping function
+
+- lapply: list apply...
+
+> The lapply() function and its friends make heavy use of anonymous functions.
