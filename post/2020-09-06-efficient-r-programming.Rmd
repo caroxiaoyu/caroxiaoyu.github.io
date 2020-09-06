@@ -23,4 +23,4 @@ library("ggplot2")
 - it's better to use `packagename::function` if you only use a package's function once.
 - benchmark & profiling.
   - `microbenchmark(), compare different function working speed.`
-  - profiblling: testing large chunks of code.
+  - profilling: testing large chunks of code.

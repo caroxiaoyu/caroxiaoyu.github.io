@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>xiaoyu</copyright>
-    <lastBuildDate>Sat, 05 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/notes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Efficient R Programming</title>
+      <link>/post/efficient-r-programming/</link>
+      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/efficient-r-programming/</guid>
+      <description>Here are some tips and thoughts while reading the book(Efficient R programming).
+Introductionlibrary(&amp;quot;microbenchmark&amp;quot;)library(&amp;quot;profvis&amp;quot;)library(&amp;quot;ggplot2&amp;quot;)touch typing &amp;amp; work consistently.it’s better to use packagename::function if you only use a package’s function once.benchmark &amp;amp; profiling.microbenchmark(), compare different function working speed.profilling: testing large chunks of code.</description>
+    </item>
     
     <item>
       <title>R programming(Roger D.peng)</title>
