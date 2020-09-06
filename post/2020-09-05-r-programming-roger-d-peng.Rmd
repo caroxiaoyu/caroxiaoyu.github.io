@@ -20,6 +20,65 @@ Here are some tips when I am reading  the R programming written by Roger D.peng.
 
 # Looping function
 
-- lapply: list apply...
+- lapply: list apply...sapply is simplified version of lapply.
+
+- split + apply, this a common paradigm.
+
+- tapply, used for vectors particularly.
+- `gl()`, generate factors.
+- apply, worked for arrays, return a vectors.
+- mapply(), used for multivariants.
+- Vectorize(), vectorize your function.
 
 > The lapply() function and its friends make heavy use of anonymous functions.
+
+# Regular expresssions.
+
+- When developing a regular expression to extract entries from a large dataset, it’s important that you understand the formatting of the dataset well enough so that you can develop a specific expression that doesn’t accidentally grep data out of context.
+- setdiff()
+- 
+```
+> grep("^New", state.name, value = TRUE)
+[1] "New Hampshire" "New Jersey"    "New Mexico"    "New York"     
+```
+- Base functions: grep(), grepl(),regexpr(), regmatches(),sub(),gsub()
+```
+> r <- regexpr("<dd>[F|f]ound(.*?)</dd>", homicides[1:5])
+> m <- regmatches(homicides[1:5], r)
+> m
+[1] "<dd>Found on January 1, 2007</dd>" "<dd>Found on January 2, 2007</dd>"
+[3] "<dd>Found on January 2, 2007</dd>" "<dd>Found on January 3, 2007</dd>"
+[5] "<dd>Found on January 5, 2007</dd>"
+> d <- gsub("<dd>[F|f]ound on |</dd>", "", m)
+> 
+> ## Nice and clean
+> d
+[1] "January 1, 2007" "January 2, 2007" "January 2, 2007" "January 3, 2007"
+[5] "January 5, 2007"
+```
+# Debugging
+
+- Vectorised?
+- function: traceback(), debug(),undebug(), browser(), trace(), recover()
+
+# Profiling R Code
+
+Profiling is a systematic way to examine how much time is spent in different parts of a program.
+(Better to read this chapter when I become more proficient.)
+> The basic principles of optimizing your code are:
+
+# Random number
+
+> always set the random number seed when conducting a simulation!
+
+- sample()
+
+> Design first, then optimize
+
+> Remember: Premature optimization is the root of all evil
+
+> Measure (collect data), don’t guess.
+# Parallel ComPutation
+see when you need it !
+
+(https://bookdown.org/rdpeng/rprogdatascience/parallel-computation.html)

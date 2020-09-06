@@ -94,11 +94,76 @@ FunctionA variable number of arguments can be specified using the special … 
 <div id="looping-function" class="section level1">
 <h1>Looping function</h1>
 <ul>
-<li>lapply: list apply…</li>
+<li><p>lapply: list apply…sapply is simplified version of lapply.</p></li>
+<li><p>split + apply, this a common paradigm.</p></li>
+<li><p>tapply, used for vectors particularly.</p></li>
+<li><p><code>gl()</code>, generate factors.</p></li>
+<li><p>apply, worked for arrays, return a vectors.</p></li>
+<li><p>mapply(), used for multivariants.</p></li>
+<li><p>Vectorize(), vectorize your function.</p></li>
 </ul>
 <blockquote>
 <p>The lapply() function and its friends make heavy use of anonymous functions.</p>
 </blockquote>
+</div>
+<div id="regular-expresssions." class="section level1">
+<h1>Regular expresssions.</h1>
+<ul>
+<li>When developing a regular expression to extract entries from a large dataset, it’s important that you understand the formatting of the dataset well enough so that you can develop a specific expression that doesn’t accidentally grep data out of context.</li>
+<li>setdiff()</li>
+<li></li>
+</ul>
+<pre><code>&gt; grep(&quot;^New&quot;, state.name, value = TRUE)
+[1] &quot;New Hampshire&quot; &quot;New Jersey&quot;    &quot;New Mexico&quot;    &quot;New York&quot;     </code></pre>
+<ul>
+<li>Base functions: grep(), grepl(),regexpr(), regmatches(),sub(),gsub()</li>
+</ul>
+<pre><code>&gt; r &lt;- regexpr(&quot;&lt;dd&gt;[F|f]ound(.*?)&lt;/dd&gt;&quot;, homicides[1:5])
+&gt; m &lt;- regmatches(homicides[1:5], r)
+&gt; m
+[1] &quot;&lt;dd&gt;Found on January 1, 2007&lt;/dd&gt;&quot; &quot;&lt;dd&gt;Found on January 2, 2007&lt;/dd&gt;&quot;
+[3] &quot;&lt;dd&gt;Found on January 2, 2007&lt;/dd&gt;&quot; &quot;&lt;dd&gt;Found on January 3, 2007&lt;/dd&gt;&quot;
+[5] &quot;&lt;dd&gt;Found on January 5, 2007&lt;/dd&gt;&quot;
+&gt; d &lt;- gsub(&quot;&lt;dd&gt;[F|f]ound on |&lt;/dd&gt;&quot;, &quot;&quot;, m)
+&gt; 
+&gt; ## Nice and clean
+&gt; d
+[1] &quot;January 1, 2007&quot; &quot;January 2, 2007&quot; &quot;January 2, 2007&quot; &quot;January 3, 2007&quot;
+[5] &quot;January 5, 2007&quot;</code></pre>
+</div>
+<div id="debugging" class="section level1">
+<h1>Debugging</h1>
+<ul>
+<li>Vectorised?</li>
+<li>function: traceback(), debug(),undebug(), browser(), trace(), recover()</li>
+</ul>
+</div>
+<div id="profiling-r-code" class="section level1">
+<h1>Profiling R Code</h1>
+<p>Profiling is a systematic way to examine how much time is spent in different parts of a program.
+(Better to read this chapter when I become more proficient.)
+&gt; The basic principles of optimizing your code are:</p>
+</div>
+<div id="random-number" class="section level1">
+<h1>Random number</h1>
+<blockquote>
+<p>always set the random number seed when conducting a simulation!</p>
+</blockquote>
+<ul>
+<li>sample()</li>
+</ul>
+<blockquote>
+<p>Design first, then optimize</p>
+</blockquote>
+<blockquote>
+<p>Remember: Premature optimization is the root of all evil</p>
+</blockquote>
+<blockquote>
+<p>Measure (collect data), don’t guess.
+# Parallel ComPutation
+see when you need it !</p>
+</blockquote>
+<p>(<a href="https://bookdown.org/rdpeng/rprogdatascience/parallel-computation.html" class="uri">https://bookdown.org/rdpeng/rprogdatascience/parallel-computation.html</a>)</p>
 </div>
 
   
