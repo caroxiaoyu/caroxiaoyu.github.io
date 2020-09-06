@@ -24,3 +24,26 @@ library("ggplot2")
 - benchmark & profiling.
   - `microbenchmark(), compare different function working speed.`
   - profilling: testing large chunks of code.
+- `installr::updateR()`
+- install and loading several packages:
+```{r eval=FALSE}
+pkgs = c("raster", "leaflet", "rgeos") # package names
+install.packages(pkgs)
+inst = lapply(pkgs, library, character.only = TRUE)
+
+```
+- 
+```{r eval=FALSE}
+update.packages()
+```
+
+- Project management is very important!
+```
+project/
+  - README.Rmd # Project description
+  - set-up.R  # Required packages
+  - R/ # For R code
+  - input # Data files
+  - graphics/
+  - output/ # Resultss
+```

@@ -9,8 +9,8 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta property="og:title" content="Efficient R Programming" />
-<meta property="og:description" content="Here are some tips and thoughts while reading the book(Efficient R programming).
-Introductionlibrary(&quot;microbenchmark&quot;)library(&quot;profvis&quot;)library(&quot;ggplot2&quot;)touch typing &amp; work consistently.it’s better to use packagename::function if you only use a package’s function once.benchmark &amp; profiling.microbenchmark(), compare different function working speed.profilling: testing large chunks of code." />
+<meta property="og:description" content="Here are some tips and thoughts while reading the book(Efficient R programming).
+Introductionlibrary(&quot;microbenchmark&quot;)library(&quot;profvis&quot;)library(&quot;ggplot2&quot;)touch typing &amp; work consistently.it’s better to use packagename::function if you only use a package’s function once.benchmark &amp; profiling.microbenchmark(), compare different function working speed.profilling: testing large chunks of code.installr::updateR()install and loading several packages:pkgs = c(&quot;raster&quot;, &quot;leaflet&quot;, &quot;rgeos&quot;) # package namesinstall.packages(pkgs)inst = lapply(pkgs, library, character." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/post/efficient-r-programming/" />
 <meta property="article:published_time" content="2020-09-06T00:00:00+00:00" />
@@ -18,8 +18,8 @@ Introductionlibrary(&quot;microbenchmark&quot;)library(&quot;profvis&quot;)li
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Efficient R Programming"/>
-<meta name="twitter:description" content="Here are some tips and thoughts while reading the book(Efficient R programming).
-Introductionlibrary(&quot;microbenchmark&quot;)library(&quot;profvis&quot;)library(&quot;ggplot2&quot;)touch typing &amp; work consistently.it’s better to use packagename::function if you only use a package’s function once.benchmark &amp; profiling.microbenchmark(), compare different function working speed.profilling: testing large chunks of code."/>
+<meta name="twitter:description" content="Here are some tips and thoughts while reading the book(Efficient R programming).
+Introductionlibrary(&quot;microbenchmark&quot;)library(&quot;profvis&quot;)library(&quot;ggplot2&quot;)touch typing &amp; work consistently.it’s better to use packagename::function if you only use a package’s function once.benchmark &amp; profiling.microbenchmark(), compare different function working speed.profilling: testing large chunks of code.installr::updateR()install and loading several packages:pkgs = c(&quot;raster&quot;, &quot;leaflet&quot;, &quot;rgeos&quot;) # package namesinstall.packages(pkgs)inst = lapply(pkgs, library, character."/>
 
   
   
@@ -94,7 +94,26 @@ library(&quot;ggplot2&quot;)</code></pre>
 <li><code>microbenchmark(), compare different function working speed.</code></li>
 <li>profilling: testing large chunks of code.</li>
 </ul></li>
+<li><code>installr::updateR()</code></li>
+<li>install and loading several packages:</li>
 </ul>
+<pre class="r"><code>pkgs = c(&quot;raster&quot;, &quot;leaflet&quot;, &quot;rgeos&quot;) # package names
+install.packages(pkgs)
+inst = lapply(pkgs, library, character.only = TRUE)</code></pre>
+<ul>
+<li></li>
+</ul>
+<pre class="r"><code>update.packages()</code></pre>
+<ul>
+<li>Project management is very important!</li>
+</ul>
+<pre><code>project/
+  - README.Rmd # Project description
+  - set-up.R  # Required packages
+  - R/ # For R code
+  - input # Data files
+  - graphics/
+  - output/ # Resultss</code></pre>
 </div>
 
   
