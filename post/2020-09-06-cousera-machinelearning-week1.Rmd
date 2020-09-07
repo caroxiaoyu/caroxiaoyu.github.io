@@ -25,6 +25,7 @@ draft: yes
 
 课程中的例子只处理了单变量，即通过肿瘤的大小来判断是良性肿瘤还是恶性肿瘤，但实际问题中往往需要多维变量，来进行预测或者分类。
 - 无监督学习：无已知的正确结果，例如聚类问题，cocktail party problem.
+
 # Model reprensentation
 
 ![model representation](d:/programming/r/projects/myblog/hypo_fun.png){width=80% height=80%}
@@ -120,7 +121,7 @@ Transv_A = transpose(A)
 ```
 
 # 问题
-1. 不明白为什么损失函数需要除以$\frac{1}{2}$
+1. 不明白为什么损失函数需要除以$\frac{1}{2}$。
 2. 梯度下降法需要手动验算，多看点资料。
 
 
