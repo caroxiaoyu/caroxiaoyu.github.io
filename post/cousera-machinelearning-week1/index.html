@@ -10,11 +10,12 @@
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta property="og:title" content="cousera_machinelearning_week1" />
 <meta property="og:description" content="我在cousera上学习了斯坦福大学吴恩达的《机器学习》，每周将记录当周的学习总结笔记，这是该系列笔记的第一篇，希望能够继续坚持下去。
-Definition &amp; type机器学习的定义:&gt; “A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.”&gt; — Tom Mitchell
-机器学习：监督式学习、无监督学习- 监督式学习：需要包含正确结果的训练集。常见问题有回归、分类问题。
+Definition &amp; type机器学习的定义:
+“A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.”— Tom Mitchell
+机器学习：监督式学习、无监督学习- 监督式学习：需要包含正确结果的训练集。常见问题有回归、分类问题。
 课程中的例子只处理了单变量，即通过肿瘤的大小来判断是良性肿瘤还是恶性肿瘤，但实际问题中往往需要多维变量，来进行预测或者分类。- 无监督学习：无已知的正确结果，例如聚类问题，cocktail party problem.# Model reprensentation
 A flowchart indicating the representation
-假设函数例子中，试图通过给出训练集，一系列算法，获得假设函数；然后按照假设函数，根据房子的大小，来估测它的价格。此时的假设函数为:\[h_{\theta}(x)=\theta_0&#43;\theta_1x\]，这是一个单变量回归问题，变量为\(x\),我们需要通过训练集，参数是\(\theta_0\),\(\theta_1\)。那么怎么获得最优参数，使得回归效果最好（需要明确最好的定义是什么），因此引入了损失函数。## 损失函数(cost function)" />
+假设函数例子中，试图通过给出训练集，一系列算法，获得假设函数；然后按照假设函数，根据房子的大小，来估测它的价格。此时的假设函数为:\[h_{\theta}(x)=\theta_0&#43;\theta_1x\]，这是一个单变量回归问题，变量为\(x\),我们需要通过训练集，参数是\(\theta_0\),\(\theta_1\)。那么怎么获得最优参数，使得回归效果最好（需要明确最好的定义是什么），因此引入了损失函数。## 损失函数(cost function)" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/post/cousera-machinelearning-week1/" />
 <meta property="article:published_time" content="2020-09-06T00:00:00+00:00" />
@@ -23,11 +24,12 @@ A flowchart indicating the representation
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="cousera_machinelearning_week1"/>
 <meta name="twitter:description" content="我在cousera上学习了斯坦福大学吴恩达的《机器学习》，每周将记录当周的学习总结笔记，这是该系列笔记的第一篇，希望能够继续坚持下去。
-Definition &amp; type机器学习的定义:&gt; “A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.”&gt; — Tom Mitchell
-机器学习：监督式学习、无监督学习- 监督式学习：需要包含正确结果的训练集。常见问题有回归、分类问题。
+Definition &amp; type机器学习的定义:
+“A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.”— Tom Mitchell
+机器学习：监督式学习、无监督学习- 监督式学习：需要包含正确结果的训练集。常见问题有回归、分类问题。
 课程中的例子只处理了单变量，即通过肿瘤的大小来判断是良性肿瘤还是恶性肿瘤，但实际问题中往往需要多维变量，来进行预测或者分类。- 无监督学习：无已知的正确结果，例如聚类问题，cocktail party problem.# Model reprensentation
 A flowchart indicating the representation
-假设函数例子中，试图通过给出训练集，一系列算法，获得假设函数；然后按照假设函数，根据房子的大小，来估测它的价格。此时的假设函数为:\[h_{\theta}(x)=\theta_0&#43;\theta_1x\]，这是一个单变量回归问题，变量为\(x\),我们需要通过训练集，参数是\(\theta_0\),\(\theta_1\)。那么怎么获得最优参数，使得回归效果最好（需要明确最好的定义是什么），因此引入了损失函数。## 损失函数(cost function)"/>
+假设函数例子中，试图通过给出训练集，一系列算法，获得假设函数；然后按照假设函数，根据房子的大小，来估测它的价格。此时的假设函数为:\[h_{\theta}(x)=\theta_0&#43;\theta_1x\]，这是一个单变量回归问题，变量为\(x\),我们需要通过训练集，参数是\(\theta_0\),\(\theta_1\)。那么怎么获得最优参数，使得回归效果最好（需要明确最好的定义是什么），因此引入了损失函数。## 损失函数(cost function)"/>
 
   
   
@@ -91,15 +93,20 @@ A flowchart indicating the representation
 <p>我在cousera上学习了斯坦福大学吴恩达的《机器学习》，每周将记录当周的学习总结笔记，这是该系列笔记的第一篇，希望能够继续坚持下去。</p>
 <div id="definition-type" class="section level1">
 <h1>Definition &amp; type</h1>
-<p>机器学习的定义:
-&gt; “A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.”
-&gt; — Tom Mitchell</p>
+<p>机器学习的定义:</p>
+<blockquote>
+<p>“A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.”
+— Tom Mitchell</p>
+</blockquote>
 <p>机器学习：监督式学习、无监督学习
 - 监督式学习：需要包含正确结果的训练集。常见问题有<strong>回归</strong>、<strong>分类</strong>问题。</p>
 <p>课程中的例子只处理了单变量，即通过肿瘤的大小来判断是良性肿瘤还是恶性肿瘤，但实际问题中往往需要多维变量，来进行预测或者分类。
 - 无监督学习：无已知的正确结果，例如聚类问题，cocktail party problem.
 # Model reprensentation</p>
-<p><a href="/post/2020-09-06-cousera-machinelearning-week1_files/hypo_fun.png">A flowchart indicating the representation</a></p>
+<div class="figure">
+<img src="/post/2020-09-06-cousera-machinelearning-week1_files/hypo_fun.png" alt="" />
+<p class="caption">A flowchart indicating the representation</p>
+</div>
 <div id="假设函数" class="section level2">
 <h2>假设函数</h2>
 <p>例子中，试图通过给出训练集，一系列算法，获得假设函数；然后按照假设函数，根据房子的大小，来估测它的价格。此时的假设函数为:

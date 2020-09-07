@@ -16,6 +16,7 @@ draft: yes
 # Definition & type
 
 机器学习的定义:
+
 > "A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E."
 > --- Tom Mitchell
 
@@ -26,7 +27,7 @@ draft: yes
 - 无监督学习：无已知的正确结果，例如聚类问题，cocktail party problem.
 # Model reprensentation
 
-[A flowchart indicating the representation](/post/2020-09-06-cousera-machinelearning-week1_files/hypo_fun.png)
+![A flowchart indicating the representation](/post/2020-09-06-cousera-machinelearning-week1_files/hypo_fun.png)
 
 ## 假设函数
 
