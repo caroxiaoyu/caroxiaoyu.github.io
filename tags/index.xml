@@ -2,94 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on From xiaoyu</title>
-    <link>/tags/</link>
+    <link>https://caroxiaoyu.github.io/tags/</link>
     <description>Recent content in Tags on From xiaoyu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>xiaoyu</copyright>
-    <lastBuildDate>Sun, 06 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://caroxiaoyu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>book</title>
-      <link>/tags/book/</link>
-      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/book/</guid>
-      <description></description>
-    </item>
     
     <item>
-      <title>cousera</title>
-      <link>/tags/cousera/</link>
-      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
+      <title>plot</title>
+      <link>https://caroxiaoyu.github.io/tags/plot/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/tags/cousera/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linear algebra</title>
-      <link>/tags/linear-algebra/</link>
-      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/linear-algebra/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>model representation</title>
-      <link>/tags/model-representation/</link>
-      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/model-representation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>data manipulation</title>
-      <link>/tags/data-manipulation/</link>
-      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/data-manipulation/</guid>
+      <guid>https://caroxiaoyu.github.io/tags/plot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R Markdown</title>
-      <link>/tags/r-markdown/</link>
-      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/r-markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Typography</title>
-      <link>/tags/typography/</link>
-      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/typography/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>plot</title>
-      <link>/tags/plot/</link>
+      <link>https://caroxiaoyu.github.io/tags/r-markdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/tags/plot/</guid>
+      <guid>https://caroxiaoyu.github.io/tags/r-markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>regression</title>
-      <link>/tags/regression/</link>
+      <link>https://caroxiaoyu.github.io/tags/regression/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/tags/regression/</guid>
+      <guid>https://caroxiaoyu.github.io/tags/regression/</guid>
       <description></description>
     </item>
     

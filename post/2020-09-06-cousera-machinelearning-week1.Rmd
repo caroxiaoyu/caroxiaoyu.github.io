@@ -27,7 +27,7 @@ draft: yes
 - 无监督学习：无已知的正确结果，例如聚类问题，cocktail party problem.
 # Model reprensentation
 
-![A flowchart indicating the representation](/post/2020-09-06-cousera-machinelearning-week1_files/hypo_fun.png)
+![model representation](d:/programming/r/projects/myblog/hypo_fun.png){width=80% height=80%}
 
 ## 假设函数
 
@@ -54,7 +54,7 @@ $$J(\theta_1)=\frac{1}{2m}\times\sum_{i=1}^m(\theta_1x^{(i)}-y^{(i)})^2$$
 梯度下降法是一种求$\theta_0,\theta_1$的方法。
 - 首先设置初始值$\theta_0,\theta_1$
 - 不断改变$\theta_0,\theta_1$，降低$J(\theta_0,\theta_1)$，直到取到最小值。
-![lecture2_slide26](/post/2020-09-06-cousera-machinelearning-week1_files/gradient_descent.png)
+![Lecture2_slide26](d:/programming/r/projects/myblog/gradient_descent.png){width=80% height=80%}
 
 > Simultaneous update $\theta_0,\theta_1$
 

@@ -2,58 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on From xiaoyu</title>
-    <link>/categories/</link>
+    <link>https://caroxiaoyu.github.io/categories/</link>
     <description>Recent content in Categories on From xiaoyu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>xiaoyu</copyright>
-    <lastBuildDate>Sun, 06 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://caroxiaoyu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>daily</title>
-      <link>/categories/daily/</link>
-      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
+      <link>https://caroxiaoyu.github.io/categories/daily/</link>
+      <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/daily/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine Learning</title>
-      <link>/categories/machine-learning/</link>
-      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>/categories/notes/</link>
-      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/notes/</guid>
+      <guid>https://caroxiaoyu.github.io/categories/daily/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/categories/r/</link>
-      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      <link>https://caroxiaoyu.github.io/categories/r/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/categories/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Graphical Design</title>
-      <link>/categories/graphical-design/</link>
-      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/graphical-design/</guid>
+      <guid>https://caroxiaoyu.github.io/categories/r/</guid>
       <description></description>
     </item>
     
