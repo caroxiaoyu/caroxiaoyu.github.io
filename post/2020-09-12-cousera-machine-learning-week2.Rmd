@@ -24,7 +24,8 @@ draft: yes
 ## 假设函数：
 
 $$h_y(x)= y_0 + y_1x_1+y_2x_2+ ... +y_nx_n（定义x_0 =1）\\向量化： hy_(x) = y^T x（y, x \in R^{n+1}）$$
-## 损失函数
+
+## 损失函数:
 
 $$J(y) = \frac{1}{2m}\times \sum_{i=1}^{m}(h_y(x^{(i)} - y^{(i)})^2$$
 
@@ -68,6 +69,7 @@ y为样本值构成的向量,\begin{bmatrix}y_0\\ y_1 \\ y_2\\ .\\ .\\ .\\\end{b
 
 根据矩阵运算,可求得$\theta = (X^TX)^{-1}X^Ty$。
 
-该方法不需要选择$\alphak$,但当$n$较大时，选择Gradient Descent,因为此方法运算速度很慢。时间复杂度达到了$O(n^3)$。
+该方法不需要选择$\alpha$,但当$n$较大时，选择Gradient Descent,因为此方法运算速度很慢。时间复杂度达到了$O(n^3)$。
+
 # Octave基础操作
 

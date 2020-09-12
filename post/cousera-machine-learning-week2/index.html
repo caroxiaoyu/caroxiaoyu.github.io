@@ -10,8 +10,8 @@
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta property="og:title" content="cousera-machine_learning_week2" />
 <meta property="og:description" content="这是该系列笔记的第二篇。包含：多变量线性回归、feature scaling &amp; mean normalization、Normal equation、Octave基本操作。
-多变量线性回归假设函数：\[h_y(x)= y_0 &#43; y_1x_1&#43;y_2x_2&#43; ... &#43;y_nx_n（定义x_0 =1）\\向量化： hy_(x) = y^T x（y, x \in R^{n&#43;1}）\]## 损失函数
-\[J(y) = \frac{1}{2m}\times \sum_{i=1}^{m}(h_y(x^{(i)} - y^{(i)})^2\]
+多变量线性回归假设函数：\[h_y(x)= y_0 &#43; y_1x_1&#43;y_2x_2&#43; ... &#43;y_nx_n（定义x_0 =1）\\向量化： hy_(x) = y^T x（y, x \in R^{n&#43;1}）\]
+损失函数:\[J(y) = \frac{1}{2m}\times \sum_{i=1}^{m}(h_y(x^{(i)} - y^{(i)})^2\]
 梯度下降法\[y_j:= y_j - \alpha\frac{1}{m}\sum_{i=1}^{m}(h_y{(x^{(i)})-y^{(i)}})x_j^{(i)}\\j=0,1,2,3,...,n\]
 不断迭代，用更新的\(y\)求损失函数的值。
 选择 \(\alpha\)绘制迭代曲线，横坐标为迭代次数，纵坐标为\(J(y)最小值\)。理想的迭代曲线为损失函数值随着迭代次数增加而逐渐降低，随后平稳。
@@ -26,8 +26,8 @@ feature scalingmake sure features are on a similar scale." />
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="cousera-machine_learning_week2"/>
 <meta name="twitter:description" content="这是该系列笔记的第二篇。包含：多变量线性回归、feature scaling &amp; mean normalization、Normal equation、Octave基本操作。
-多变量线性回归假设函数：\[h_y(x)= y_0 &#43; y_1x_1&#43;y_2x_2&#43; ... &#43;y_nx_n（定义x_0 =1）\\向量化： hy_(x) = y^T x（y, x \in R^{n&#43;1}）\]## 损失函数
-\[J(y) = \frac{1}{2m}\times \sum_{i=1}^{m}(h_y(x^{(i)} - y^{(i)})^2\]
+多变量线性回归假设函数：\[h_y(x)= y_0 &#43; y_1x_1&#43;y_2x_2&#43; ... &#43;y_nx_n（定义x_0 =1）\\向量化： hy_(x) = y^T x（y, x \in R^{n&#43;1}）\]
+损失函数:\[J(y) = \frac{1}{2m}\times \sum_{i=1}^{m}(h_y(x^{(i)} - y^{(i)})^2\]
 梯度下降法\[y_j:= y_j - \alpha\frac{1}{m}\sum_{i=1}^{m}(h_y{(x^{(i)})-y^{(i)}})x_j^{(i)}\\j=0,1,2,3,...,n\]
 不断迭代，用更新的\(y\)求损失函数的值。
 选择 \(\alpha\)绘制迭代曲线，横坐标为迭代次数，纵坐标为\(J(y)最小值\)。理想的迭代曲线为损失函数值随着迭代次数增加而逐渐降低，随后平稳。
@@ -99,8 +99,10 @@ feature scalingmake sure features are on a similar scale."/>
 <h1>多变量线性回归</h1>
 <div id="假设函数" class="section level2">
 <h2>假设函数：</h2>
-<p><span class="math display">\[h_y(x)= y_0 + y_1x_1+y_2x_2+ ... +y_nx_n（定义x_0 =1）\\向量化： hy_(x) = y^T x（y, x \in R^{n+1}）\]</span>
-## 损失函数</p>
+<p><span class="math display">\[h_y(x)= y_0 + y_1x_1+y_2x_2+ ... +y_nx_n（定义x_0 =1）\\向量化： hy_(x) = y^T x（y, x \in R^{n+1}）\]</span></p>
+</div>
+<div id="损失函数" class="section level2">
+<h2>损失函数:</h2>
 <p><span class="math display">\[J(y) = \frac{1}{2m}\times \sum_{i=1}^{m}(h_y(x^{(i)} - y^{(i)})^2\]</span></p>
 </div>
 </div>
@@ -139,8 +141,10 @@ feature scalingmake sure features are on a similar scale."/>
 \theta为参数向量,\begin{bmatrix}\theta_0\\ \theta_1 \\ \theta_2\\ .\\ .\\ .\\\end{bmatrix}，\theta \in R^{n+1}，待求。
 y为样本值构成的向量,\begin{bmatrix}y_0\\ y_1 \\ y_2\\ .\\ .\\ .\\\end{bmatrix}，y \in R^{n+1}，已知。 \]</span></p>
 <p>根据矩阵运算,可求得<span class="math inline">\(\theta = (X^TX)^{-1}X^Ty\)</span>。</p>
-<p>该方法不需要选择<span class="math inline">\(\alphak\)</span>,但当<span class="math inline">\(n\)</span>较大时，选择Gradient Descent,因为此方法运算速度很慢。时间复杂度达到了<span class="math inline">\(O(n^3)\)</span>。
-# Octave基础操作</p>
+<p>该方法不需要选择<span class="math inline">\(\alpha\)</span>,但当<span class="math inline">\(n\)</span>较大时，选择Gradient Descent,因为此方法运算速度很慢。时间复杂度达到了<span class="math inline">\(O(n^3)\)</span>。</p>
+</div>
+<div id="octave基础操作" class="section level1">
+<h1>Octave基础操作</h1>
 </div>
 
   

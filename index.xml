@@ -19,8 +19,8 @@
       
       <guid>/post/cousera-machine-learning-week2/</guid>
       <description>这是该系列笔记的第二篇。包含：多变量线性回归、feature scaling &amp;amp; mean normalization、Normal equation、Octave基本操作。
-多变量线性回归假设函数：\[h_y(x)= y_0 + y_1x_1+y_2x_2+ ... +y_nx_n（定义x_0 =1）\\向量化： hy_(x) = y^T x（y, x \in R^{n+1}）\]## 损失函数
-\[J(y) = \frac{1}{2m}\times \sum_{i=1}^{m}(h_y(x^{(i)} - y^{(i)})^2\]
+多变量线性回归假设函数：\[h_y(x)= y_0 + y_1x_1+y_2x_2+ ... +y_nx_n（定义x_0 =1）\\向量化： hy_(x) = y^T x（y, x \in R^{n+1}）\]
+损失函数:\[J(y) = \frac{1}{2m}\times \sum_{i=1}^{m}(h_y(x^{(i)} - y^{(i)})^2\]
 梯度下降法\[y_j:= y_j - \alpha\frac{1}{m}\sum_{i=1}^{m}(h_y{(x^{(i)})-y^{(i)}})x_j^{(i)}\\j=0,1,2,3,...,n\]
 不断迭代，用更新的\(y\)求损失函数的值。
 选择 \(\alpha\)绘制迭代曲线，横坐标为迭代次数，纵坐标为\(J(y)最小值\)。理想的迭代曲线为损失函数值随着迭代次数增加而逐渐降低，随后平稳。
