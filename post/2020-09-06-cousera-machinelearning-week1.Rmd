@@ -2,6 +2,14 @@
 title: cousera_machinelearning_week1
 author: xiaoyu
 date: '2020-09-06'
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    smooth_sroll: true
+    number_sections: true
+    theme: cerulean
+    hightlight: kate
 categories:
   - Machine Learning
 tags:

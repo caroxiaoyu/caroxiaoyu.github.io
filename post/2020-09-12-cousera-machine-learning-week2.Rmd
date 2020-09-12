@@ -1,0 +1,21 @@
+---
+title: cousera-machine_learning_week2
+author: xiaoyu
+date: '2020-09-12'
+slug: cousera-machine-learning-week2
+output: 
+  html_document:
+   toc: true
+ 
+categories:
+  - Machine Learning
+tags:
+  - gradient descent
+  - Octave
+  - multivariable
+  - feature scaling
+  - normal equation
+draft: yes
+---
+这是该系列笔记的第二篇。 
+
