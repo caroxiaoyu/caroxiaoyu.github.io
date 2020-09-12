@@ -17,5 +17,22 @@ tags:
   - normal equation
 draft: yes
 ---
-这是该系列笔记的第二篇。 
+这是该系列笔记的第二篇。包含：多变量线性回归、feature scaling & mean normalization、Normal equation、Octave基本操作。
+
+# 多变量线性回归
+
+## 假设函数：
+$$h_\theta(x)= \theta_0 + \theta_1x_1+\theta_2x_2+ ... +\theta_nx_n（定义x_0 =1）\\向量化： h\theta_(x) = \theta^T x（\theta, x \in R^{n+1}）$$
+## 损失函数
+
+$$J(\theta) = \frac{1}{2m}\times \sum_{i=1}^{m}(h_\theta(x^{(i)} - y^{(i)})^2$$
+# 梯度下降法
+
+## 选择 $\alpha$
+
+# feature scaling & mean normalization
+
+# 运用Normal Equation
+
+# Octave基础操作
 

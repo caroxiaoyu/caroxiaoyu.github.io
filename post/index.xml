@@ -18,7 +18,10 @@
       <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/cousera-machine-learning-week2/</guid>
-      <description>这是该系列笔记的第二篇。</description>
+      <description>这是该系列笔记的第二篇。包含：多变量线性回归、feature scaling &amp;amp; mean normalization、Normal equation、Octave基本操作。
+多变量线性回归假设函数：\[h_\theta(x)= \theta_0 + \theta_1x_1+\theta_2x_2+ ... +\theta_nx_n（定义x_0 =1）\\向量化： h\theta_(x) = \theta^T x（\theta, x \in R^{n+1}）\]## 损失函数
+\[J(\theta) = \frac{1}{2m}\times \sum_{i=1}^{m}(h_\theta(x^{(i)} - y^{(i)})^2\]# 梯度下降法
+选择 \(\alpha\)feature scaling &amp;amp; mean normalization运用Normal EquationOctave基础操作</description>
     </item>
     
     <item>
@@ -57,7 +60,7 @@
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/cousera-machinelearning-week1/</guid>
-      <description>\(a\)我在cousera上学习了斯坦福大学吴恩达的《机器学习》，每周将记录当周的学习总结笔记，这是该系列笔记的第一篇，希望能够继续坚持下去。
+      <description>我在cousera上学习了斯坦福大学吴恩达的《机器学习》，每周将记录当周的学习总结笔记，这是该系列笔记的第一篇，希望能够继续坚持下去。
 Definition &amp;amp; type机器学习的定义:
 “A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.”— Tom Mitchell
 机器学习：监督式学习、无监督学习- 监督式学习：需要包含正确结果的训练集。常见问题有回归、分类问题。

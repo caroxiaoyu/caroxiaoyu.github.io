@@ -19,7 +19,7 @@ tags:
 slug: cousera-machinelearning-week1
 draft: yes
 ---
-\(a\)我在cousera上学习了斯坦福大学吴恩达的《机器学习》，每周将记录当周的学习总结笔记，这是该系列笔记的第一篇，希望能够继续坚持下去。
+我在cousera上学习了斯坦福大学吴恩达的《机器学习》，每周将记录当周的学习总结笔记，这是该系列笔记的第一篇，希望能够继续坚持下去。
 
 # Definition & type
 
