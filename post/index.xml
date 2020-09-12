@@ -7,10 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>xiaoyu</copyright>
-    <lastBuildDate>Sun, 06 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>迷思</title>
+      <link>/post/%E8%BF%B7%E6%80%9D/</link>
+      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/%E8%BF%B7%E6%80%9D/</guid>
+      <description>疫情之下的学校显得有些特别。每天不停地面部识别，测量体温。人与人之间的关系也变得微妙起来。但令我惊喜的是，即使人人都戴着口罩，同学之间仍能够互相识别。这一点倒比机器智能不少。或许我忘了，人无论如何都不会成为机器。</description>
+    </item>
+    
+    <item>
+      <title>如何读文献</title>
+      <link>/post/%E5%A6%82%E4%BD%95%E8%AF%BB%E6%96%87%E7%8C%AE/</link>
+      <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/%E5%A6%82%E4%BD%95%E8%AF%BB%E6%96%87%E7%8C%AE/</guid>
+      <description>今天在@返朴公众号上看到一篇讲述如何阅读文献的文章，来自于哈尔滨医科大学（深圳）的王威教授。颇觉收益，它讲述了读文献的原因与方法。但我认为还有不足之处。因此，我想综合我过去读文献的经验（教训)，结合这篇文章，写下自己的一点心得体会。
+为什么读文献过去先回顾一下自己给过去三年读文献的几种原因- 课程作业所迫：老师突如其来布置的综述、课程论文。很多时候我并不知道还怎么做，别人将的方法论还难以内化于心。加上时间管理的能力欠佳，往往在截止日期前几天才开始写、或者交上论文。导致自己最终写出的论文往往不能令自己满意。
+何老师曾对大一上学期的我们说：”你们是写不好综述的。“当时只觉灰心，现在想到那对于一年级的我们确实难度太大。但是也并非难如登天，只要有恒心毅力，以及方法，合适的指导。对一个领域长久的深入关注，我想终能水滴石穿。
+课堂展示：一般要加入小组，几乎每门课都有这样的活动。但似乎收获甚微。小组成员分工明确，将一篇文献拆的四分五裂，然后做各自的PPT、讲解。效果似乎可以，但无益于我们对于一篇文献的整体把握。理想的情况是每一位小组成员都阅读全篇文章，然后集体讨论文章的利弊与各自的疑惑之处，最终进行分工完成展示。印象中只有生化小组展示最终达到了这样的效果，各组辩论也是一种非常好的形式。
+科研课题：为了写项目的申请书、做答辩PPT、实验遇到瓶颈需要找思路。
+自我提高: 不是为了任何含有ddl的项目，而是为了提高自己阅读文献的能力。事实上：也正是由于它不含有硬性ddl，导致它的优先级永远被我排在了最后。这也导致自己很难静下心来去思考应该怎么读文献，写文献笔记常常半途而废（易分心、过分注重写笔记的形式）。导致自己最终读完的文献数目凤毛麟角；相反讽刺的是，收集的文献则过分多。
+综上，看出自己在大学期间并没有真正努力去读文献，相反，而是用一层有一层的文献泡沫来包装自己（关注很多学术公众号，但对于它们的推送极少看；下载很多文献，却没有时间看；收集很多文献资源网站，却总也用不上；收藏夹里堆满了文献链接，但自己或许永远也没有心情点进去细看）。因此，是时候洗去这层泡沫了。拨开云雾，踏踏实实地奋斗。
+正文这个漫长的暑假我终于能够说自己静下心来看了一些文献。记录一些自己的体会吧。为什么要看文献，我认为有以下几点：
+了解最新的研究进展。明白自己为什么要做这项工作，它的point, future implications。培养自己的批判阅读能力。了解它人的实验方法、逻辑、作图、文章的组织结构、实验设计思路。学习如何讲好一个故事）。了解科学前沿，增长见识、拓宽思路。如何读文献按照文献的种类，分为泛读与精度文献。明确自己选择泛读的文献。
+泛读RSS 订阅的文献（star例外）。微信公众号订阅（收藏例外）。与课题相关性低，拓展知识类。写作即使是泛读也要写笔记，否则读过的东西就像蜻蜓点水一样，无法留下任何痕迹，就更别期望它能够带来任何思考。
+建议每天写一次，每天晚上花20-25分钟时间记录今天泛读过的文献内容。
+花几分钟写一个泛读写作模板：摘要+意义+思考。阅读一定要读文章摘要，如果有图表则仔细看图标。然后直接略看discussion。
+</description>
+    </item>
     
     <item>
       <title>cousera_machinelearning_week1</title>
@@ -36,18 +66,6 @@ Definition &amp;amp; type机器学习的定义:
       <guid>/post/efficient-r-programming/</guid>
       <description>Here are some tips and thoughts while reading the book(Efficient R programming).
 Introductionlibrary(&amp;quot;microbenchmark&amp;quot;)library(&amp;quot;profvis&amp;quot;)library(&amp;quot;ggplot2&amp;quot;)touch typing &amp;amp; work consistently.it’s better to use packagename::function if you only use a package’s function once.benchmark &amp;amp; profiling.microbenchmark(), compare different function working speed.profilling: testing large chunks of code.installr::updateR()install and loading several packages:pkgs = c(&amp;quot;raster&amp;quot;, &amp;quot;leaflet&amp;quot;, &amp;quot;rgeos&amp;quot;) # package namesinstall.packages(pkgs)inst = lapply(pkgs, library, character.</description>
-    </item>
-    
-    <item>
-      <title>浮夸&#43;吹捧</title>
-      <link>/post/%E4%B8%80%E4%BA%9B%E6%B5%AE%E5%A4%B8/</link>
-      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/post/%E4%B8%80%E4%BA%9B%E6%B5%AE%E5%A4%B8/</guid>
-      <description>前几天爸爸的棋友请客，我脑子抽筋跟着去了，深感后悔。两桌人只有我一个女生。糟糕的是：我不得不面对来自我认识、不认识的人各种吹捧。无非就是一些皮毛肤浅的话，过去对我的批评教诲现在都莫名奇妙地，一股脑儿全变成了夸赞。还大言不惭地谈论着我梦想中的西湖大学，弄得他们对这学校很了解似的。当初我在清华和西湖之间选择的时候，他们又在哪里呢？又有谁愿意发出一点不同的声音呢？
-今天去三爸那里吃饭，又不出意外的被迫听着他们饭桌上吹牛皮，然后三爸对我一番宣扬加教诲（劝我不要忘记老祖宗之类的话），这样的话我每次聚会都能听到，估计在不远的将来还将听到无数次。为什么呢？长辈的饭桌高谈阔论简直就是一个修罗场，不外乎对国际形势的不恰当评论，对后代子女教育的一点点浅见，并且从不忘记把不同的孩子顺手拿来相互比较。比如“九哥擅长社交，峰哥典型学霸，但与人交往能力弱”。对此我感到深深的困惑，不明白，三爸对于这些后辈究竟有多了解呢？他为什么要不厌其烦地，将自己的价值观宣扬出去。而这对于后辈，又有多少真正的促进作用呢？说到底，这无非就是为了满足这些大人们觥筹交错间的谈话欲望罢了。认真就输了。
-在我生活的这个小地方，我的家长接触的人，他们几乎都认为我很厉害，走到哪里都给我砸来一番不着边际的吹捧，让我深感良心不安。无论别人如何吹嘘自己，只有自己才能明白自己是什么样的能力与水平。对于他们的话，我只想说，当真我就输了。
-加油！</description>
     </item>
     
     <item>
@@ -119,15 +137,6 @@ typeface influences the typesize shown.
       
       <guid>/post/%E6%B5%8B%E8%AF%95/</guid>
       <description>测试中文，test chinese</description>
-    </item>
-    
-    <item>
-      <title>自责</title>
-      <link>/post/%E8%87%AA%E8%B4%A3.zh-ch/</link>
-      <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/post/%E8%87%AA%E8%B4%A3.zh-ch/</guid>
-      <description></description>
     </item>
     
     <item>

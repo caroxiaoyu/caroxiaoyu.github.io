@@ -3,12 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/tags/book/</loc>
-    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
+    <loc>/tags/ai/</loc>
+    <lastmod>2020-09-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/</loc>
+    <lastmod>2020-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/daily/</loc>
+    <lastmod>2020-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/thoughts/</loc>
+    <lastmod>2020-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/%E8%BF%B7%E6%80%9D/</loc>
+    <lastmod>2020-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/paper/</loc>
+    <lastmod>2020-09-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/research/</loc>
+    <lastmod>2020-09-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/tips/</loc>
+    <lastmod>2020-09-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/%E5%A6%82%E4%BD%95%E8%AF%BB%E6%96%87%E7%8C%AE/</loc>
+    <lastmod>2020-09-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/book/</loc>
     <lastmod>2020-09-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -23,17 +78,7 @@
   </url>
   
   <url>
-    <loc>/categories/daily/</loc>
-    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/efficient-r-programming/</loc>
-    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2020-09-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -54,21 +99,6 @@
   
   <url>
     <loc>/categories/notes/</loc>
-    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/%E4%B8%80%E4%BA%9B%E6%B5%AE%E5%A4%B8/</loc>
     <lastmod>2020-09-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -130,11 +160,6 @@
   <url>
     <loc>/post/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2020-09-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/%E8%87%AA%E8%B4%A3.zh-ch/</loc>
-    <lastmod>2020-09-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
