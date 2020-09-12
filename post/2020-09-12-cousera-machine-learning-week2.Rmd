@@ -53,11 +53,11 @@ $$y_j:= y_j - \alpha\frac{1}{m}\sum_{i=1}^{m}(h_y{(x^{(i)})-y^{(i)}})x_j^{(i)}\\
 
 make sure features are on a similar scale. Get them into approximately $\in[-1,1]$
 
-$x_i = \frac{x_i}{x_{max} - x_{min}}$
+$$x_i = \frac{x_i}{x_{max} - x_{min}}$$
 
 ## mean normalization
 
-$x_i = \frac{x_i - x_{mean}}{x_{max} - x_{min}(or SD)}$
+$$x_i = \frac{x_i - x_{mean}}{x_{max} - x_{min}(or SD)}$$
 
 
 # 运用Normal Equation
