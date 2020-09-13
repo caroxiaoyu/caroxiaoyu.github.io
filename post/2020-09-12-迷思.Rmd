@@ -1,5 +1,5 @@
 ---
-title: 迷思
+title: 疫情迷思
 author: xiaoyu
 date: '2020-09-12'
 slug: 迷思
