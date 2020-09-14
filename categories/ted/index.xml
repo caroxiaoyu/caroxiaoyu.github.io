@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>thoughts on 🐟</title>
-    <link>/tags/thoughts/</link>
-    <description>Recent content in thoughts on 🐟</description>
+    <title>TED on 🐟</title>
+    <link>/categories/ted/</link>
+    <description>Recent content in TED on 🐟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>xiaoyu</copyright>
     <lastBuildDate>Sun, 13 Sep 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/ted/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -27,15 +27,6 @@ How to get better at things we care about?演讲者为\(Eduarido\quad Brice\til
 我们之所以在展现区耗费大量时间，是因为我们通常不必要地将环境置于高风险的状态…即使是在学校里。
 学习区存在于低风险中，展示区则更像一片波涛汹涌的浪花。但是，我们不能抗拒犯错，我们要学会在浪花中寻找一片相对低风险的岛屿。例如与自己信任的导师交流，以获得定期的反馈。
 </description>
-    </item>
-    
-    <item>
-      <title>疫情迷思</title>
-      <link>/post/%E8%BF%B7%E6%80%9D/</link>
-      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/post/%E8%BF%B7%E6%80%9D/</guid>
-      <description>疫情之下的学校显得有些特别。每天不停地面部识别，测量体温。人与人之间的关系也变得微妙起来。但令我惊喜的是，即使人人都戴着口罩，同学之间仍能够互相识别。这一点倒比机器智能不少。或许我忘了，人无论如何都不会成为机器。</description>
     </item>
     
   </channel>
