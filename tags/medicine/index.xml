@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>book on 🐟</title>
-    <link>/tags/book/</link>
-    <description>Recent content in book on 🐟</description>
+    <title>medicine on 🐟</title>
+    <link>/tags/medicine/</link>
+    <description>Recent content in medicine on 🐟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>xiaoyu</copyright>
     <lastBuildDate>Tue, 15 Sep 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/book/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/medicine/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -25,27 +25,6 @@
 第4、5章：对传统疗养院的革新，在这两章介绍了许多具有革命性概念的辅助机构，以威尔逊夫妇于1983年创办的老年生活中心为首。同样卓有成效的尝试还有比尔\(\cdot\)托马斯的动物革命（为疗养院引入动物）、新桥疗养院（隐私与沟通并存，并引入儿童生活），以及彼得\(\cdot\)山伯恩（为老年人提供家的感觉）、托马斯的绿房子之家。这些创新型疗养机构的共同点在于当处理临终护理问题时，充分考虑了老人更高层次的需求，而不仅仅是安全。
 子女希望父母安全，却为自己谋取自由。
 第6、7、8章：什么时候该放弃治疗，是否应该选择临终护理。当病人面临这一选择时，他们大多已经走到了生命的尽头。作者首先提出了这一问题，现代医学的进步使得人们的生存曲线变得陡峭曲折，生命不断地接受损耗，多出来的时间使人不得不面对临终这一生命课题。作者用父亲的例子贯穿后两章。在这个过程中，他向我们指出了理想的医患关系，即解释型，医生与患者共同参与决策，帮助患者认清他们真正的愿望。与此同时，这个过程中艰难的告别方式令人动容。当我们目睹心爱之人慢慢失去生命的活力，却不得不冷静下来进行决策，这是令人心碎的时刻。当我读到辅助性疗养机构的成功时，我感到无比振奋，为概念的尝试没有被制度埋没而庆幸。但令人遗憾的是，我目前还没有了解到本国有任何这类机构。我们常常提到“养老院”，但印象中它总是老无所依的代名词。即使在那里老人可以参与日常活动，但他们真的感到快乐吗？我想起去年曾经去学校附近的养老院担任理发师志愿者。那里的姐姐非常热情，我也能感受到她们对老人真心实意的关怀。那些老人大多四肢健全，但是，这样的环境是否真的与“家“无异，我们为了让我们的后代不再为老年生活感到过分恐惧，还能再做些什么呢？在这方面，城乡差距再次显现出来，我多么希望我的外公外婆能够住进这样的机构，使他们不用面对与子女同住的气恼，同时享有生活的自由。但令人悲哀的是，在经济落后的小镇，我们并不去关注他们的精神世界，在子女的心中，似乎保障父母的安全便是第一要事。这是否是一种偷懒的做法？在大城市，在整个国家的决策上，我也同样没有看到致力于老年人护理，尤其是城镇老人护理的有志之士。这大概又是一个费力不讨巧的问题吧。</description>
-    </item>
-    
-    <item>
-      <title>Efficient R Programming</title>
-      <link>/post/efficient-r-programming/</link>
-      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/post/efficient-r-programming/</guid>
-      <description>Here are some tips and thoughts while reading the book(Efficient R programming).
-Introductionlibrary(&amp;quot;microbenchmark&amp;quot;)library(&amp;quot;profvis&amp;quot;)library(&amp;quot;ggplot2&amp;quot;)touch typing &amp;amp; work consistently.it’s better to use packagename::function if you only use a package’s function once.benchmark &amp;amp; profiling.microbenchmark(), compare different function working speed.profilling: testing large chunks of code.installr::updateR()install and loading several packages:pkgs = c(&amp;quot;raster&amp;quot;, &amp;quot;leaflet&amp;quot;, &amp;quot;rgeos&amp;quot;) # package namesinstall.packages(pkgs)inst = lapply(pkgs, library, character.</description>
-    </item>
-    
-    <item>
-      <title>R programming(Roger D.peng)</title>
-      <link>/post/r-programming-roger-d-peng/</link>
-      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/post/r-programming-roger-d-peng/</guid>
-      <description>Here are some tips when I am reading the R programming written by Roger D.peng.
-FunctionA variable number of arguments can be specified using the special … argument in a function definition, is often used when extending another function and you don’t want to copy the entire argument list of the original function
-Functions always return the last expression evaluated in the function body.Note that there is a return() function that can be used to return an explicity value from a function, but it is rarely used in R.</description>
     </item>
     
   </channel>
