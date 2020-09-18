@@ -1,0 +1,51 @@
+---
+title: Shape and color
+author: xiaoyu
+date: '2020-09-16'
+slug: shape-and-color
+categories:
+  - Graphical Design
+tags:
+  - cousera
+  - shape
+draft: yes
+---
+## Visual Contrast
+
+- shape contrast: simple, complex, large(/simple), Vertical(Horizontal), narrow(broad).
+
+- shallow(deep), moving(static), light(dark), soft(hard), light(heavy), volume.
+
+## Marks, Icons and Symbols
+
+- Icon(pictorial represents actual things, easy to read), Symbol.
+
+## Figure/Ground
+
+- Figure, Ground(Background), think about them perspectively.
+
+- Negative/Positive, create depth.
+
+- Both scale and tonality can affect the depth.
+
+## Color
+
+- color indicates emotional response.
+
+- color: HUE, rainbow, value(light to dark), saturation(dull to intense).
+
+- color wheel: 
+    - analogous colors
+    
+    - complementary colors(rotatae $180^0$)
+    
+    - Color tints
+    
+- color palette
+
+> Make color palette by hand.
+
+## 颜色系统
+
+1. RGB色彩系统：
+

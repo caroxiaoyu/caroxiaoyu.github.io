@@ -7,10 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>xiaoyu</copyright>
-    <lastBuildDate>Sun, 06 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/cousera/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Shape and color</title>
+      <link>/post/shape-and-color/</link>
+      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/shape-and-color/</guid>
+      <description>Visual Contrastshape contrast: simple, complex, large(/simple), Vertical(Horizontal), narrow(broad).
+shallow(deep), moving(static), light(dark), soft(hard), light(heavy), volume.
+Marks, Icons and SymbolsIcon(pictorial represents actual things, easy to read), Symbol.Figure/GroundFigure, Ground(Background), think about them perspectively.
+Negative/Positive, create depth.
+Both scale and tonality can affect the depth.
+Colorcolor indicates emotional response.
+color: HUE, rainbow, value(light to dark), saturation(dull to intense).</description>
+    </item>
     
     <item>
       <title>cousera_machinelearning_week1</title>
