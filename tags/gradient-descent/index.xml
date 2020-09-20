@@ -18,15 +18,7 @@
       <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/cousera-machine-learning-week2/</guid>
-      <description>这是该系列笔记的第二篇。包含：多变量线性回归、feature scaling &amp;amp; mean normalization、Normal equation、Octave基本操作。
-多变量线性回归假设函数：\[h_y(x)= y_0 + y_1x_1+y_2x_2+ ... +y_nx_n（定义x_0 =1）\\向量化： hy_(x) = y^T x（y, x \in R^{n+1}）\]
-损失函数:\[J(y) = \frac{1}{2m}\times \sum_{i=1}^{m}(h_y(x^{(i)} - y^{(i)})^2\]
-梯度下降法\[y_j:= y_j - \alpha\frac{1}{m}\sum_{i=1}^{m}(h_y{(x^{(i)})-y^{(i)}})x_j^{(i)}\\j=0,1,2,3,...,n\]
-不断迭代，用更新的\(y\)求损失函数的值。
-选择 \(\alpha\)绘制迭代曲线，横坐标为迭代次数，纵坐标为\(J(y)最小值\)。理想的迭代曲线为损失函数值随着迭代次数增加而逐渐降低，随后平稳。
-
-如果\(\alpha\)过小，则损失函数值下降过慢。如果\(\alpha\)过大，则损失函数值可能会上升，或者上下波动。try 0.1, 0.3, 0.01, 0.03, 0.001, 0.003。feature scaling &amp;amp; mean normalization不同的变量测量值不同，可能相差很大的范围。为了减小由于测量单位尺度带来的误差，因此需要进行标准化。
-feature scalingmake sure features are on a similar scale.</description>
+      <description>这是该系列笔记的第二篇。包含：多变量线性回归、feature scaling &amp;amp; mean normalization、Normal equation、Octave基本</description>
     </item>
     
   </channel>

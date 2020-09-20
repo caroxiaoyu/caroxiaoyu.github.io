@@ -18,10 +18,7 @@
       <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/rmd%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
-      <description>BasicsR markdown 由三部分组成：metadata（也被称为YAML metadata,注意缩进）, text, code({r}或者r(incline code)。一些拓展应用有Homework assignments(Rpub)、写journal articles, 做dashbords、写书、搭建网站
-Rob J Hyndman’s personal website: https://robjhyndman.com (a very comprehensive academic website).Amber Thomas’s personal website: https://amber.rbind.io (a rich project portfolio).Emi Tanaka’s personal website: https://emitanaka.github.io (in particular, check out the beautiful showcase page).reproducible workflow is important!!!, try to make your reports reproducible.
-编译knit, rmarkdown::render(&#39;xx.Rmd&#39;,&#39;pdf_format&#39;)
-注意： Rendering an Rmd document in a new R session means that none of the objects in your current R session (e.</description>
+      <description>Basics R markdown 由三部分组成：metadata（也被称为YAML metadata,注意缩进）, text, code({r}或者r(incline code)。一些</description>
     </item>
     
     <item>
