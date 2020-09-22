@@ -9,6 +9,9 @@ tags:
   - book
 draft: yes
 ---
+```{r klippy, echo=FALSE, include=TRUE}
+klippy::klippy()
+```
 Here are some tips and thoughts while reading the book([Efficient R programming](https://csgillespie.github.io/efficientR/introduction.html#what-is-efficiency)).
 
 # Introduction

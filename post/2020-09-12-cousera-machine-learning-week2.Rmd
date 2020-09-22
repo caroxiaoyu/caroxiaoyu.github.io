@@ -17,6 +17,9 @@ tags:
   - normal equation
 draft: yes
 ---
+```{r klippy, echo=FALSE, include=TRUE}
+klippy::klippy()
+```
 这是该系列笔记的第二篇。包含：多变量线性回归、feature scaling & mean normalization、Normal equation、Octave基本操作。
 
 # 多变量线性回归

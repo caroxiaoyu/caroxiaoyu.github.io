@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>xiaoyu</copyright>
-    <lastBuildDate>Fri, 18 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The FASTA program package</title>
+      <link>/post/the-fasta-program-package/</link>
+      <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/the-fasta-program-package/</guid>
+      <description>FASTA与BLAST类似，能够进行序列比对，内含多种比对算法，能够获得大量定量结果，帮助我们推断同源性。 安装 进入Latest，下载电脑系统</description>
+    </item>
     
     <item>
       <title>读书|专念（一）</title>
@@ -63,7 +72,7 @@
       <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/cousera-machine-learning-week2/</guid>
-      <description>这是该系列笔记的第二篇。包含：多变量线性回归、feature scaling &amp;amp; mean normalization、Normal equation、Octave基本</description>
+      <description>addClassKlippyTo(&#34;pre.r, pre.markdown&#34;); addKlippy(&#39;left&#39;, &#39;top&#39;, &#39;auto&#39;, &#39;1&#39;, &#39;Copy code&#39;, &#39;Copied!&#39;); 这是该系列笔记的第二篇。包含：多变量线性回归、feature scaling &amp;amp; mean normalization、Normal equation</description>
     </item>
     
     <item>
@@ -99,8 +108,8 @@
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/efficient-r-programming/</guid>
-      <description>Here are some tips and thoughts while reading the book(Efficient R programming).
-Introductionlibrary(&amp;quot;microbenchmark&amp;quot;)library(&amp;quot;profvis&amp;quot;)library(&amp;quot;ggplot2&amp;quot;)touch typing &amp;amp; work consistently.it’s better to use packagename::function if you only use a package’s function once.benchmark &amp;amp; profiling.microbenchmark(), compare different function working speed.profilling: testing large chunks of code.installr::updateR()install and loading several packages:pkgs = c(&amp;quot;raster&amp;quot;, &amp;quot;leaflet&amp;quot;, &amp;quot;rgeos&amp;quot;) # package namesinstall.packages(pkgs)inst = lapply(pkgs, library, character.</description>
+      <description>addClassKlippyTo(&#34;pre.r, pre.markdown&#34;);addKlippy(&#39;left&#39;, &#39;top&#39;, &#39;auto&#39;, &#39;1&#39;, &#39;Copy code&#39;, &#39;Copied!&#39;);Here are some tips and thoughts while reading the book(Efficient R programming).
+Introductionlibrary(&amp;quot;microbenchmark&amp;quot;)library(&amp;quot;profvis&amp;quot;)library(&amp;quot;ggplot2&amp;quot;)touch typing &amp;amp; work consistently.it’s better to use packagename::function if you only use a package’s function once.benchmark &amp;amp; profiling.microbenchmark(), compare different function working speed.profilling: testing large chunks of code.installr::updateR()install and loading several packages:pkgs = c(&amp;quot;raster&amp;quot;, &amp;quot;leaflet&amp;quot;, &amp;quot;rgeos&amp;quot;) # package namesinstall.</description>
     </item>
     
     <item>

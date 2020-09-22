@@ -36,7 +36,7 @@ draft: yes
 
 # Model reprensentation
 
-![model representation](d:/programming/r/projects/myblog/hypo_fun.png){width=80% height=80%}
+![model representation](../hypo_fun.png){width=80% height=80%}
 
 ## 假设函数
 
@@ -64,7 +64,7 @@ $$J(\theta_1)=\frac{1}{2m}\times\sum_{i=1}^m(\theta_1x^{(i)}-y^{(i)})^2$$
 梯度下降法是一种求$\theta_0,\theta_1$的方法。
 - 首先设置初始值$\theta_0,\theta_1$
 - 不断改变$\theta_0,\theta_1$，降低$J(\theta_0,\theta_1)$，直到取到最小值。
-![Lecture2_slide26](d:/programming/r/projects/myblog/gradient_descent.png){width=80% height=80%}
+![Lecture2_slide26](../gradient_descent.png){width=80% height=80%}
 
 > Simultaneous update $\theta_0,\theta_1$
 

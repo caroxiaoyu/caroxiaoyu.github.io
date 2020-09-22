@@ -36,8 +36,8 @@
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/efficient-r-programming/</guid>
-      <description>Here are some tips and thoughts while reading the book(Efficient R programming).
-Introductionlibrary(&amp;quot;microbenchmark&amp;quot;)library(&amp;quot;profvis&amp;quot;)library(&amp;quot;ggplot2&amp;quot;)touch typing &amp;amp; work consistently.it’s better to use packagename::function if you only use a package’s function once.benchmark &amp;amp; profiling.microbenchmark(), compare different function working speed.profilling: testing large chunks of code.installr::updateR()install and loading several packages:pkgs = c(&amp;quot;raster&amp;quot;, &amp;quot;leaflet&amp;quot;, &amp;quot;rgeos&amp;quot;) # package namesinstall.packages(pkgs)inst = lapply(pkgs, library, character.</description>
+      <description>addClassKlippyTo(&#34;pre.r, pre.markdown&#34;);addKlippy(&#39;left&#39;, &#39;top&#39;, &#39;auto&#39;, &#39;1&#39;, &#39;Copy code&#39;, &#39;Copied!&#39;);Here are some tips and thoughts while reading the book(Efficient R programming).
+Introductionlibrary(&amp;quot;microbenchmark&amp;quot;)library(&amp;quot;profvis&amp;quot;)library(&amp;quot;ggplot2&amp;quot;)touch typing &amp;amp; work consistently.it’s better to use packagename::function if you only use a package’s function once.benchmark &amp;amp; profiling.microbenchmark(), compare different function working speed.profilling: testing large chunks of code.installr::updateR()install and loading several packages:pkgs = c(&amp;quot;raster&amp;quot;, &amp;quot;leaflet&amp;quot;, &amp;quot;rgeos&amp;quot;) # package namesinstall.</description>
     </item>
     
     <item>

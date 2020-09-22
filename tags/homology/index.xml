@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>homology on 努力的咸鱼</title>
+    <link>/tags/homology/</link>
+    <description>Recent content in homology on 努力的咸鱼</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>xiaoyu</copyright>
+    <lastBuildDate>Sun, 20 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/homology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The FASTA program package</title>
+      <link>/post/the-fasta-program-package/</link>
+      <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/the-fasta-program-package/</guid>
+      <description>FASTA与BLAST类似，能够进行序列比对，内含多种比对算法，能够获得大量定量结果，帮助我们推断同源性。 安装 进入Latest，下载电脑系统</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,70 @@
+---
+title: The FASTA program package
+author: xiaoyu
+date: '2020-09-20'
+slug: the-fasta-program-package
+categories:
+  - Bioinformatics
+tags:
+  - homology
+draft: yes
+---
+FASTA与BLAST类似，能够进行序列比对，内含多种比对算法，能够获得大量定量结果，帮助我们推断同源性。
+
+## 安装
+
+进入[Latest]( http://faculty.virginia.edu/wrpearson/fasta)，下载电脑系统对应的最新版本，解压，目录结构如下：
+![目录结构](../fasta_dnload_dir.png)
+
+## 基本使用
+
+命令行基本使用方法：
+
+``` Bash
+# the simplist command
+fasta36 -options query.file library.file
+# 将结果输入为文件
+fasta36 -options query.file library.file > output.file
+
+```
+BP62代表BLOSUM62打分矩阵(-11/-1)
+
+
+### 交互模式
+
+通过交互模式输入测试序列文件名、序列库文件名、ktup（控制搜索速度，灵敏度）
+
+- 蛋白质：1, 2
+- DNA: 6, 3, 4
+
+```
+fasta36 -I
+```
+
+### 测试
+
+```
+# directory: d:/fasta36-36.3.8g-win32/fasta36-36.3.8g
+# 测试1：交互模式
+./bin/fasta36 -I
+
+# 测试2
+
+./bin/fasta36 ./seq/musplfm.aa ./seq/prot_test.lib
+```
+
+## custom
+
+### 获取序列文件
+
+在uniprot上获得目的蛋白质序列，下载为fasta格式，放置该目录下。
+
+### 获取库文件
+
+以获得果蝇基因组为例，在[NCBI](https://www.ncbi.nlm.nih.gov/genome/?term=Drosophila+melanogaster)上下载果蝇中所有翻译的蛋白质，文件为FASTA格式。放置fasta36目录下。
+
+### 改变参数
+
+1. options: 可用来修改打分矩阵，空位罚分，输出选项等,y以下说明一些可能会用到的可选项。
+
+    - `-b #`，`#`代表数字，用来指定输出结果的数目，默认是输出所有复合E value的序列。
