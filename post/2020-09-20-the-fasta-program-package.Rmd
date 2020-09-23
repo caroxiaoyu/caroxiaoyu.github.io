@@ -9,6 +9,9 @@ tags:
   - homology
 draft: yes
 ---
+```{r klippy, echo=FALSE, include=TRUE}
+klippy::klippy()
+```
 FASTA与BLAST类似，能够进行序列比对，内含多种比对算法，能够获得大量定量结果，帮助我们推断同源性。
 
 ## 安装
@@ -65,6 +68,50 @@ fasta36 -I
 
 ### 改变参数
 
-1. options: 可用来修改打分矩阵，空位罚分，输出选项等,y以下说明一些可能会用到的可选项。
+options: 可用来修改打分矩阵，空位罚分，输出选项等,y以下说明一些可能会用到的可选项:
 
-    - `-b #`，`#`代表数字，用来指定输出结果的数目，默认是输出所有复合E value的序列。
+`-b #`，`#`代表数字，用来指定输出结果的数目，默认是输出所有复合E value的序列。
+    
+- `-S` 过滤掉低复杂序列，详细含义参见文档。
+    
+- `m 8` 以blast 格式展示。
+    
+- 其他参数请详见**fasta_guide**介绍。
+    
+**190923的结果即采用了上述三个参数**。
+
+```
+ ./bin/fasta36 -m 8 -b 5 -S homo_sapiens_overamplification.fasta dmel-all-translation-r6.29.fasta >test4_m8_b5_S_blastlike.csv
+```
+### 结果处理
+
+1. 对照 `fasta -m 8i`的结果，为示例结果添加header。
+
+2. 在第二列subject id FBppXXXXXXX后添加对应的果蝇的基因名字。
+    - 进入[flybase转换基因ID](http://flybase.org/convert/id) 
+    
+    - 拷贝query id, subject id，至输入栏，提交即可获得结果，下载“validation table”，为txt格式。
+    
+    - 将数据读入R，处理数据。script位于项目fasta_converted_id下。
+    
+`d:/programming/r/projects/fasta_convert_Id`    
+    
+```{r,echo=TRUE,eval=FALSE}
+# `d:/programming/r/projects/fasta_convert_Id`
+library(readr)
+library(tidyverse)
+converted <- read_tsv("converted_id.txt") # read_tsv, read tab-delimited files
+converted <- converted[,c(2,3)]
+
+query_sub <- read.csv("query_sub_id.csv", 
+                      header = TRUE, 
+                      col.names = c("query.id", "validated_id"))
+
+#fasta_res190923 <- read.csv("3-fasta_res190923.csv", fileEncoding = "UTF-8")
+
+merge <- mutate(query_sub, gene_name = converted$current_symbol)
+write.csv(merge, "converted_id.csv")
+
+```
+    
+    
