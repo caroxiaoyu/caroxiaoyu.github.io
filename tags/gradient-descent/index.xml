@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>xiaoyu</copyright>
-    <lastBuildDate>Sat, 12 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/gradient-descent/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>cousera_machine_learning_week3</title>
+      <link>/post/cousera-machine-learning-week3/</link>
+      <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/cousera-machine-learning-week3/</guid>
+      <description>addClassKlippyTo(&#34;pre.r, pre.markdown&#34;); addKlippy(&#39;left&#39;, &#39;top&#39;, &#39;auto&#39;, &#39;1&#39;, &#39;Copy code&#39;, &#39;Copied!&#39;); 这是机器学习课程笔记的第三篇，内容包括：分类问题、逻辑回归（假设函数、损失函数）、梯度下降法求解\(\theta\)、决策</description>
+    </item>
     
     <item>
       <title>cousera-machine_learning_week2</title>
