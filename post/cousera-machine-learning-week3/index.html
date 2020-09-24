@@ -80,7 +80,7 @@
           
           <time datetime="2020-09-24 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-09-24</time>
           ,
-          Words：699
+          Words：959
           
         <div class="article-category">
             <i class="fas fa-archive"></i>
@@ -158,7 +158,7 @@ g(z) = \frac{1}{1+e^{-z}}
 <div id="梯度下降法最小化损失函数" class="section level2">
 <h2>梯度下降法最小化损失函数</h2>
 <p>与线性回归法形式上完全一致：<strong>不同之处仅在于<span class="math inline">\(h_\theta(x^{(i)})\)</span></strong>的含义不同，即进行了映射。
-<span class="math display">\[\frac{\partial J(\theta)}{\partial\theta_j} = \frac{1}{m}\sum_{i=1}^m(h_\theta(x^{(i)-y^{(i)}}))x_j^{(i)}\\\theta = \theta - \alpha\frac{\partial J(\theta)}{\partial\theta_j}\]</span></p>
+<span class="math display">\[\frac{\partial J(\theta)}{\partial\theta_j} = \frac{1}{m}\sum_{i=1}^m(h_\theta(x^{(i)})-y^{(i)})x_j^{(i)}\\\theta = \theta - \alpha\frac{\partial J(\theta)}{\partial\theta_j}\]</span></p>
 </div>
 <div id="决策边界" class="section level2">
 <h2>决策边界</h2>
@@ -168,6 +168,28 @@ g(z) = \frac{1}{1+e^{-z}}
 <img src="../show_boundary.png" alt="" />
 <p class="caption">边界曲线</p>
 </div>
+</div>
+<div id="过拟合问题" class="section level2">
+<h2>过拟合问题</h2>
+<p>当产生的假设函数不能很好地拟合样本数据时，为欠拟合(Underfitting)；当假设函数对样本数据近似完美拟合，但却不能很好地预测未知数据时，则为过拟合（Overfit）。解决过拟合主要有两种方法：减少特征数目、regularization。这里介绍后一种。</p>
+<div id="costfunction_reg" class="section level3">
+<h3>CostFunction_Reg</h3>
+<p><span class="math display">\[J(\theta)
+= -\frac{1}{m}[\sum_{i=1}^my^{(i)}logh_\theta(x^{(i)})+(1-y^{(i)})log(1-h_\theta(x^{(i)}))]+\frac{\lambda}{2m}\sum_{j=1}^n\theta_j^2\]</span></p>
+</div>
+<div id="gradient_reg" class="section level3">
+<h3>Gradient_Reg</h3>
+<p><span class="math display">\[
+\frac{\partial J(\theta)}{\partial\theta_j} = \frac{1}{m}\sum_{i=1}^m[(h_\theta(x^{(i)})-y^{(i)})x_j^{(i)}+ \frac{\lambda}{m}\theta_j]\\
+\theta = \theta - \alpha\frac{\partial J(\theta)}{\partial\theta_j}
+\]</span></p>
+</div>
+</div>
+<div id="注意事项" class="section level2">
+<h2>注意事项</h2>
+<ol style="list-style-type: decimal">
+<li>在用Octave实现regularization时，需要注意括号，<span class="math inline">\(\lambda/2*m*\theta&#39;\theta\)</span> ≠ <span class="math inline">\(\lambda/(2*m)*\theta&#39;\theta\)</span>。</li>
+</ol>
 </div>
 <div id="疑问" class="section level2">
 <h2>疑问</h2>

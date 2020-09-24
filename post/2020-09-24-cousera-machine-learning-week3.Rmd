@@ -53,7 +53,7 @@ $$J(\theta) = \frac{1}{m}\sum_{i=1}^{m}Cost(h_\theta(x^{(i)}),y^{(i)})\\
 ## 梯度下降法最小化损失函数
 
 与线性回归法形式上完全一致：**不同之处仅在于$h_\theta(x^{(i)})$**的含义不同，即进行了映射。
-$$\frac{\partial J(\theta)}{\partial\theta_j} = \frac{1}{m}\sum_{i=1}^m(h_\theta(x^{(i)-y^{(i)}}))x_j^{(i)}\\\theta = \theta - \alpha\frac{\partial J(\theta)}{\partial\theta_j}$$
+$$\frac{\partial J(\theta)}{\partial\theta_j} = \frac{1}{m}\sum_{i=1}^m(h_\theta(x^{(i)})-y^{(i)})x_j^{(i)}\\\theta = \theta - \alpha\frac{\partial J(\theta)}{\partial\theta_j}$$
 
 ## 决策边界
 
@@ -62,6 +62,25 @@ $$\frac{\partial J(\theta)}{\partial\theta_j} = \frac{1}{m}\sum_{i=1}^m(h_\theta
 对于更复杂的曲线，仍可推断出。$h_\theta(x) = 0$为边界曲线。
 
 ![边界曲线](../show_boundary.png)
+
+## 过拟合问题
+
+当产生的假设函数不能很好地拟合样本数据时，为欠拟合(Underfitting)；当假设函数对样本数据近似完美拟合，但却不能很好地预测未知数据时，则为过拟合（Overfit）。解决过拟合主要有两种方法：减少特征数目、regularization。这里介绍后一种。
+
+### CostFunction_Reg
+
+$$J(\theta)
+= -\frac{1}{m}[\sum_{i=1}^my^{(i)}logh_\theta(x^{(i)})+(1-y^{(i)})log(1-h_\theta(x^{(i)}))]+\frac{\lambda}{2m}\sum_{j=1}^n\theta_j^2$$
+
+### Gradient_Reg
+$$
+\frac{\partial J(\theta)}{\partial\theta_j} = \frac{1}{m}\sum_{i=1}^m[(h_\theta(x^{(i)})-y^{(i)})x_j^{(i)}+ \frac{\lambda}{m}\theta_j]\\
+\theta = \theta - \alpha\frac{\partial J(\theta)}{\partial\theta_j}
+$$
+
+## 注意事项
+
+1. 在用Octave实现regularization时，需要注意括号，$\lambda/2*m*\theta'\theta$ ≠ $\lambda/(2*m)*\theta'\theta$。
 
 ## 疑问
 
