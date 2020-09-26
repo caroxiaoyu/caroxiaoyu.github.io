@@ -1,0 +1,18 @@
+---
+title: 'Hugo使用注意事项'
+author: xiaoyu
+date: '2020-09-24'
+slug: ''
+categories:
+  - Hugo
+  - notes
+tags: []
+draft: yes
+---
+这篇文章记录了一些我在使用博客中的经验（教训）( •̀ ω •́ )✧。
+
+## 插入图片
+
+不同主题的目录结构不一样。在cactus主题中，应把图片放在/static/post下，Hugo会把static下的post文件夹自动拷贝至/public/post文件夹中。从而显示图片。
+
+当更换主题时，一定要注意/static与/public的目录对应关系。

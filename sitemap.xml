@@ -18,12 +18,27 @@
   </url>
   
   <url>
+    <loc>/categories/daily/</loc>
+    <lastmod>2020-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/feature-scaling/</loc>
     <lastmod>2020-09-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/gradient-descent/</loc>
+    <lastmod>2020-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/hugo/</loc>
+    <lastmod>2020-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020-09-24-/</loc>
     <lastmod>2020-09-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -53,7 +68,22 @@
   </url>
   
   <url>
+    <loc>/tags/thoughts/</loc>
+    <lastmod>2020-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/</loc>
+    <lastmod>2020-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
+    <lastmod>2020-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/%E6%88%90%E9%95%BF-%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/</loc>
     <lastmod>2020-09-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -74,16 +104,6 @@
   
   <url>
     <loc>/tags/book/</loc>
-    <lastmod>2020-09-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/thoughts/</loc>
-    <lastmod>2020-09-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/</loc>
     <lastmod>2020-09-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -110,11 +130,6 @@
   <url>
     <loc>/post/shape-and-color/</loc>
     <lastmod>2020-09-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/daily/</loc>
-    <lastmod>2020-09-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>

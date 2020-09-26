@@ -22,12 +22,30 @@
     </item>
     
     <item>
+      <title>Hugo使用注意事项</title>
+      <link>/post/2020-09-24-/</link>
+      <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-09-24-/</guid>
+      <description>这篇文章记录了一些我在使用博客中的经验（教训）( •̀ ω •́ )✧。 插入图片 不同主题的目录结构不一样。在cactus主题中，应把图片放在/sta</description>
+    </item>
+    
+    <item>
+      <title>成长|时间管理</title>
+      <link>/post/%E6%88%90%E9%95%BF-%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/</link>
+      <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/%E6%88%90%E9%95%BF-%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/</guid>
+      <description>首先说明这不是一篇心灵鸡汤，而是我惨痛的教训记录，和一些坦率的思考。我曾经听过很多人讲过时间管理的方法。但是有的方法并不适合自己，或者说：不</description>
+    </item>
+    
+    <item>
       <title>The FASTA program package</title>
       <link>/post/the-fasta-program-package/</link>
       <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/the-fasta-program-package/</guid>
-      <description>addClassKlippyTo(&#34;pre.r, pre.markdown&#34;); addKlippy(&#39;left&#39;, &#39;top&#39;, &#39;auto&#39;, &#39;1&#39;, &#39;Copy code&#39;, &#39;Copied!&#39;); FASTA与BLAST类似，能够进行序列比对，内含多种比对算法，能够获得大量定量结果，帮助我们推断同源性。 安装 进入Late</description>
+      <description>addClassKlippyTo(&#34;pre.r, pre.markdown&#34;); addKlippy(&#39;left&#39;, &#39;top&#39;, &#39;auto&#39;, &#39;1&#39;, &#39;Copy code&#39;, &#39;Copied!&#39;); FASTA与BLAST类似，能够进行序列比对，内含多种比对算法，能够获得大量定量结果，帮助我们推断同源性。 本文简要介绍了使</description>
     </item>
     
     <item>
