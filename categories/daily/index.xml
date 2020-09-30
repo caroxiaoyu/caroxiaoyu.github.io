@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>xiaoyu</copyright>
-    <lastBuildDate>Thu, 24 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/daily/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>&#34;Browser&#34;</title>
+      <link>/post/browser/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/browser/</guid>
+      <description>依然是关于个人的成长，依然是一场艰难的自我历练。 今天是学习科目二的第二天。傍晚走在回东区的路上，我突然想到：无论我在网络生活中如何地感到被自</description>
+    </item>
     
     <item>
       <title>成长|时间管理</title>
