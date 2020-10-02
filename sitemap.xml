@@ -8,12 +8,22 @@
   </url>
   
   <url>
+    <loc>/categories/art/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <lastmod>2020-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/daily/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/introduction/</loc>
     <lastmod>2020-09-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -39,6 +49,11 @@
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/%E7%BE%8E%E6%9C%AF%E9%89%B4%E8%B5%8F%E4%B8%8E%E5%AE%9E%E8%B7%B5-%E4%B8%80/</loc>
     <lastmod>2020-09-30T00:00:00+00:00</lastmod>
   </url>
   

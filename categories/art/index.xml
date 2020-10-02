@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>art on 努力的咸鱼</title>
+    <link>/categories/art/</link>
+    <description>Recent content in art on 努力的咸鱼</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>xiaoyu</copyright>
+    <lastBuildDate>Wed, 30 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/art/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>美术鉴赏与实践（一）</title>
+      <link>/post/%E7%BE%8E%E6%9C%AF%E9%89%B4%E8%B5%8F%E4%B8%8E%E5%AE%9E%E8%B7%B5-%E4%B8%80/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/%E7%BE%8E%E6%9C%AF%E9%89%B4%E8%B5%8F%E4%B8%8E%E5%AE%9E%E8%B7%B5-%E4%B8%80/</guid>
+      <description>这门课由园艺学院的李险峰教授授课。这是我非常喜欢，期待已久的一门课。我将在这里记录下每一节课的一些感受与思考。希望自己能坚持下去~ 这是第一节</description>
+    </item>
+    
+  </channel>
+</rss>
