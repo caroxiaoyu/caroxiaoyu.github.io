@@ -8,6 +8,15 @@
     <language>zh-cn</language>
     <lastBuildDate>Wed, 05 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://caroxiaoyu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Blog</title>
+      <link>https://caroxiaoyu.github.io/tags/blog/</link>
+      <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://caroxiaoyu.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hugo</title>
       <link>https://caroxiaoyu.github.io/tags/hugo/</link>
       <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>

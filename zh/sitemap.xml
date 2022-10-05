@@ -8,6 +8,13 @@
   </url>
   
   <url>
+    <loc>https://caroxiaoyu.github.io/tags/blog/</loc>
+    <lastmod>2022-10-05T19:03:27+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://caroxiaoyu.github.io/categories/</loc>
     <lastmod>2022-10-05T19:03:27+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -29,13 +36,6 @@
   </url>
   
   <url>
-    <loc>https://caroxiaoyu.github.io/2022/10/rebuild-blog/</loc>
-    <lastmod>2022-10-05T19:03:27+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://caroxiaoyu.github.io/tags/</loc>
     <lastmod>2022-10-05T19:03:27+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -50,6 +50,13 @@
   </url>
   
   <url>
+    <loc>https://caroxiaoyu.github.io/categories/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2022-10-05T19:03:27+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://caroxiaoyu.github.io/2022/10/%E5%BD%92%E6%9D%A5/</loc>
     <lastmod>2022-10-05T16:59:35+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -58,6 +65,13 @@
   
   <url>
     <loc>https://caroxiaoyu.github.io/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2022-10-05T19:03:27+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://caroxiaoyu.github.io/2022/10/%E9%87%8D%E6%96%B0%E5%BB%BA%E7%AB%8B%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2022-10-05T19:03:27+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

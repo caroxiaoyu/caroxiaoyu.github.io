@@ -24,11 +24,26 @@
     </item>
     
     <item>
-      <title>rebuild blog</title>
-      <link>https://caroxiaoyu.github.io/2022/10/rebuild-blog/</link>
+      <title>归来</title>
+      <link>https://caroxiaoyu.github.io/2022/10/%E5%BD%92%E6%9D%A5/</link>
       <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://caroxiaoyu.github.io/2022/10/rebuild-blog/</guid>
+      <guid>https://caroxiaoyu.github.io/2022/10/%E5%BD%92%E6%9D%A5/</guid>
+      
+        <description>&lt;p&gt;昨天把博客搞丢了，今天又找回来了。
+昨天的笔记如下：
+我再也不想折腾github博客了，我不知道为什么public文件无法编译。一遍又一遍的删除重新建仓库。向一个机械人一样，这是人应该做的事吗！！！
+告辞，hugo + github以后我就每天用notion做笔记
+真是光速打脸啊！&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>重新建立博客</title>
+      <link>https://caroxiaoyu.github.io/2022/10/%E9%87%8D%E6%96%B0%E5%BB%BA%E7%AB%8B%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://caroxiaoyu.github.io/2022/10/%E9%87%8D%E6%96%B0%E5%BB%BA%E7%AB%8B%E5%8D%9A%E5%AE%A2/</guid>
       
         <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;昨天我的脑子不知道出了什么问题，把自己两年前辛苦鼓捣出来的博客给毁了。准确来说是自己用了错误的方法去解决问题，导致这个问题像雪球一样越滚越大。于是我打算用一键删除，万事重做大法，天真的以为所有的的问题都会消失。结果问题不但没有消失，还越变越复杂。我不断地重新建立github repository，不断地尝试。总算有了一点眉目。希望能够在此详细的记录下自己重新建立个人网站的过程。以史为鉴吧。&lt;/p&gt;
@@ -56,23 +71,15 @@ git add remote origin http://caroxiaoyu.github.io.git &lt;span style=&#34;color:
 git commit -a
 git push -u origin master
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;此时在github setting里面选择Pages，稍等一会儿能够看到如下界面：&lt;/p&gt;
-&lt;h2 id=&#34;使用&#34;&gt;使用&lt;/h2&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>归来</title>
-      <link>https://caroxiaoyu.github.io/2022/10/%E5%BD%92%E6%9D%A5/</link>
-      <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://caroxiaoyu.github.io/2022/10/%E5%BD%92%E6%9D%A5/</guid>
-      
-        <description>&lt;p&gt;昨天把博客搞丢了，今天又找回来了。
-昨天的笔记如下：
-我再也不想折腾github博客了，我不知道为什么public文件无法编译。一遍又一遍的删除重新建仓库。向一个机械人一样，这是人应该做的事吗！！！
-告辞，hugo + github以后我就每天用notion做笔记
-真是光速打脸啊！&lt;/p&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;此时在github setting里面选择Pages，稍等一会儿能够看到如下界面：
+&lt;img src=&#34;images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221005200201.png&#34; alt=&#34;&#34;&gt;。访问该站点，该博客就建立成功啦。&lt;/p&gt;
+&lt;h2 id=&#34;总结一些遇到的坑&#34;&gt;总结一些遇到的坑&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;需要修改hosts文件才能访问github。&lt;/li&gt;
+&lt;li&gt;整个过程不需要添加ssh密钥。&lt;/li&gt;
+&lt;li&gt;git使用的3步：add, commit, push。如果仓库已经有东西了，这时不能再把本地的push过去，会产生冲突。&lt;/li&gt;
+&lt;li&gt;创建post时，draft要选择false，否则不会出现在public文件夹中。&lt;/li&gt;
+&lt;/ol&gt;</description>
       
     </item>
     
