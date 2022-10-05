@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://caroxiaoyu.github.io/sitemap.xml
