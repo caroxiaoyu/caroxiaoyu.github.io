@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>About</title>
+      <title>关于我</title>
       <link>https://caroxiaoyu.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -20,6 +20,44 @@
       
         <description>&lt;p&gt;用心感受生活，用心记录生活&lt;/p&gt;
 </description>
+      
+    </item>
+    
+    <item>
+      <title>rebuild blog</title>
+      <link>https://caroxiaoyu.github.io/2022/10/rebuild-blog/</link>
+      <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://caroxiaoyu.github.io/2022/10/rebuild-blog/</guid>
+      
+        <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;昨天我的脑子不知道出了什么问题，把自己两年前辛苦鼓捣出来的博客给毁了。准确来说是自己用了错误的方法去解决问题，导致这个问题像雪球一样越滚越大。于是我打算用一键删除，万事重做大法，天真的以为所有的的问题都会消失。结果问题不但没有消失，还越变越复杂。我不断地重新建立github repository，不断地尝试。总算有了一点眉目。希望能够在此详细的记录下自己重新建立个人网站的过程。以史为鉴吧。&lt;/p&gt;
+&lt;h2 id=&#34;流程&#34;&gt;流程&lt;/h2&gt;
+&lt;h3 id=&#34;使用rstudio安装blogdown&#34;&gt;使用Rstudio安装blogdown&lt;/h3&gt;
+&lt;p&gt;由于该R包是部署在github上的，因此我要解决的第一个问题就是能够翻墙访问github。通过一番查找，得知仍然是通过老套路把github的IP地址添加hosts文件下。&lt;a href=&#34;https://ipaddress.com/website/github.com&#34;&gt;Github的IP地址&lt;/a&gt;。&lt;img src=&#34;images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221005193050.png&#34; alt=&#34;&#34;&gt;。然后打开hosts文件。在下面添加&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ssh IP Address @github.com&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;install.packages&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;blogdown&amp;#34;&lt;/span&gt;);
+&lt;span style=&#34;color:#a6e22e&#34;&gt;library&lt;/span&gt;(blogdown)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;使用blogdown新建website&#34;&gt;使用blogdown新建website&lt;/h3&gt;
+&lt;p&gt;选择New Project, New directory, 拖到最下面选择website with blogdown。在hugo-theme处填上自己喜欢的主题名字。
+一般需要先在&lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;Hugo theme&lt;/a&gt;种去选择，然后找到对应的username/theme-name。这样一个初始的主题就建好了。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;blogdown&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;build_site&lt;/span&gt;()&lt;span style=&#34;color:#75715e&#34;&gt;#首先建立站点&lt;/span&gt;
+blogdown&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;serve_site&lt;/span&gt;()&lt;span style=&#34;color:#75715e&#34;&gt;#预览站点，用于本地调试用。&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;这一步会生成public文件夹，一定要注意没有生成。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;在github新建仓库&#34;&gt;在github新建仓库&lt;/h3&gt;
+&lt;p&gt;在github上新建一个仓库，一定要注意仓库名字是username.github.io(不要随便取，这也是我刚开始忽略的点)。不要选择ReadMe.md和.gitignore文件。另一步需要安装git软件。略~~~~&lt;/p&gt;
+&lt;h3 id=&#34;把本地public文件夹上传到仓库&#34;&gt;把本地public文件夹上传到仓库&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;git init
+git add remote origin http://caroxiaoyu.github.io.git &lt;span style=&#34;color:#75715e&#34;&gt;# 将github远程库链接添加到本地&lt;/span&gt;
+git commit -a
+git push -u origin master
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;此时在github setting里面选择Pages，稍等一会儿能够看到如下界面：&lt;/p&gt;
+&lt;h2 id=&#34;使用&#34;&gt;使用&lt;/h2&gt;</description>
       
     </item>
     

@@ -130,7 +130,7 @@
         
           
           
-            <a class="menu-item-link" href="https://caroxiaoyu.github.io/about/">About</a>
+            <a class="menu-item-link" href="https://caroxiaoyu.github.io/about/">关于我</a>
           
         
       </li>
@@ -266,7 +266,7 @@
         
           
           
-            <a class="menu-item-link" href="https://caroxiaoyu.github.io/about/">About</a>
+            <a class="menu-item-link" href="https://caroxiaoyu.github.io/about/">关于我</a>
           
 
         
@@ -294,6 +294,64 @@
     
   
   
+  
+    <article class="post bg-white">
+  <header class="post-header">
+    <h1 class="post-title">
+      
+      <a class="post-link" href="/2022/10/rebuild-blog/">rebuild blog</a>
+    </h1>
+    
+    <div class="post-meta">
+      <time datetime="2022-10-05" class="post-time">
+        2022-10-05
+      </time>
+      <div class="post-category">
+          <a href="https://caroxiaoyu.github.io/categories/%E6%8A%80%E6%9C%AF/"> 技术 </a>
+          
+        </div>
+      
+      
+      
+    </div>
+  </header>
+  
+  <div class="post-content">
+    
+    <div class="post-summary">
+      <h2 id="前言">前言</h2>
+<p>昨天我的脑子不知道出了什么问题，把自己两年前辛苦鼓捣出来的博客给毁了。准确来说是自己用了错误的方法去解决问题，导致这个问题像雪球一样越滚越大。于是我打算用一键删除，万事重做大法，天真的以为所有的的问题都会消失。结果问题不但没有消失，还越变越复杂。我不断地重新建立github repository，不断地尝试。总算有了一点眉目。希望能够在此详细的记录下自己重新建立个人网站的过程。以史为鉴吧。</p>
+<h2 id="流程">流程</h2>
+<h3 id="使用rstudio安装blogdown">使用Rstudio安装blogdown</h3>
+<p>由于该R包是部署在github上的，因此我要解决的第一个问题就是能够翻墙访问github。通过一番查找，得知仍然是通过老套路把github的IP地址添加hosts文件下。<a href="https://ipaddress.com/website/github.com">Github的IP地址</a>。<img src="images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221005193050.png" alt="">。然后打开hosts文件。在下面添加</p>
+<blockquote>
+<p>ssh IP Address @github.com</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">install.packages</span>(<span style="color:#e6db74">&#34;blogdown&#34;</span>);
+<span style="color:#a6e22e">library</span>(blogdown)
+</code></pre></div><h3 id="使用blogdown新建website">使用blogdown新建website</h3>
+<p>选择New Project, New directory, 拖到最下面选择website with blogdown。在hugo-theme处填上自己喜欢的主题名字。
+一般需要先在<a href="https://themes.gohugo.io/">Hugo theme</a>种去选择，然后找到对应的username/theme-name。这样一个初始的主题就建好了。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">blogdown<span style="color:#f92672">::</span><span style="color:#a6e22e">build_site</span>()<span style="color:#75715e">#首先建立站点</span>
+blogdown<span style="color:#f92672">::</span><span style="color:#a6e22e">serve_site</span>()<span style="color:#75715e">#预览站点，用于本地调试用。</span>
+</code></pre></div><blockquote>
+<p>这一步会生成public文件夹，一定要注意没有生成。</p>
+</blockquote>
+<h3 id="在github新建仓库">在github新建仓库</h3>
+<p>在github上新建一个仓库，一定要注意仓库名字是username.github.io(不要随便取，这也是我刚开始忽略的点)。不要选择ReadMe.md和.gitignore文件。另一步需要安装git软件。略~~~~</p>
+<h3 id="把本地public文件夹上传到仓库">把本地public文件夹上传到仓库</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git init
+git add remote origin http://caroxiaoyu.github.io.git <span style="color:#75715e"># 将github远程库链接添加到本地</span>
+git commit -a
+git push -u origin master
+
+</code></pre></div><p>此时在github setting里面选择Pages，稍等一会儿能够看到如下界面：</p>
+<h2 id="使用">使用</h2>
+    </div>
+    
+  </div>
+</article>
+
   
     <article class="post bg-white">
   <header class="post-header">
@@ -330,6 +388,7 @@
 </article>
 
   
+ 
 </section>
 
 
@@ -337,6 +396,7 @@
 
 
 
+
   
   
   
@@ -355,7 +415,7 @@
 
 
 
-
+ 
 
         </div>
       </div>
