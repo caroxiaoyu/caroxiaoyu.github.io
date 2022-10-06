@@ -47,7 +47,45 @@
 &lt;/ul&gt;
 &lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
 &lt;p&gt;这篇文章比较了C-26模型，LLC模型以及PDA患者发生恶液质后骨骼肌的基因表达情况（这个后续自己要走一遍流程）。结果发现overlap很少。&lt;/p&gt;
-&lt;p&gt;作者还验证了经典的PDA模型，Kras; p53; Cre (KPC)，发现它在研究cachexia也有很大局限。&lt;/p&gt;</description>
+&lt;p&gt;作者还验证了经典的PDA模型，Kras; p53; Cre (KPC)，发现它在研究cachexia也有很大局限。&lt;/p&gt;
+&lt;h2 id=&#34;比较模型&#34;&gt;比较模型&lt;/h2&gt;
+&lt;h3 id=&#34;rna-seq&#34;&gt;RNA-seq：&lt;/h3&gt;
+&lt;p&gt;作者首先通过RNA-seq比较了三种模型的的恶病质表征情况（control vs. cachetic patients)。分析它们的差异基因。
+C-26, LLC， PDA分别找到了3474， 788， 141的差异基因。PDA模型中相关的基因都是与细胞胞外基质相关的。而前两种模型主要集中在RNA翻译水平的变化上。
+有意思的是，PDA模型的差异基因在癌症病人中都是下调的，而在另外两种模型中85%都是上调的（C26),或者50%上调，50%下调。&lt;/p&gt;
+&lt;h3 id=&#34;rt-qpcr&#34;&gt;RT-qPCR&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221005234749.jpg&#34; alt=&#34;&#34;&gt;
+作者还分析三种模型的肌肉自噬与蛋白酶体降解相关的基因表达，结果都呈现了不一致的现象。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;autophagy gene: Atg5, Bnip3&lt;/li&gt;
+&lt;li&gt;E3 ligases: MuRF1, Atrogin-1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;验证新模型kpc-gemm-of-pda&#34;&gt;验证新模型：KPC GEMM of PDA&lt;/h2&gt;
+&lt;p&gt;K-rasLSL.G12D/+; Trp53R172H/+; Pdx-1-Cre(KPC)
+这也是一种非常常见的胰腺导管癌模型。它们发现KPC小鼠普遍比同龄小鼠个头小。
+并且KPC的DEG只有一个，同样与PDA病人中得到的结果不一致。&lt;/p&gt;
+&lt;h3 id=&#34;构建新模型&#34;&gt;构建新模型&lt;/h3&gt;
+&lt;p&gt;基于前面转录分析的明显差异，作者因此想要构建一种新的模型。作者从以下几个方面进行考虑：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Model the progression of PDA&lt;/li&gt;
+&lt;li&gt;induce cancer in postnatal adults&lt;/li&gt;
+&lt;li&gt;establish a direct association between PDA and cachexia development: real tissue wasting are happening.&lt;/li&gt;
+&lt;li&gt;develop cachexia slower that the current model. 
+因此，作者在先用的KPC模型进行改进。基因型为：Kras+/G12D, Ptf1a+/ER-Cre, Ptenf/f。
+&lt;img src=&#34;images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221006192455.png&#34; alt=&#34;The current cachexia model&#34;&gt;
+作者随后进一步验证了这种模型，发现reporter gene在经过tamoxifen诱导后只在胰腺腺泡细胞中表达。
+在end point期，癌症小鼠的组织学分析明显差异：
+&lt;img src=&#34;images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221006193227.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;Acian Blue: 表征是否有粘蛋白或者粘多糖。
+作者接下来想要评估是否KPP小鼠也患有恶液质。分别从体重、muscle masses(TA,tibialis anterior muscle，胫骨前肌；QUAD, quadriceps，四头肌；GAST, gastrocnemius腓肠肌)进行评价，发现都减少了。
+&lt;img src=&#34;images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221006194623.png&#34; alt=&#34;&#34;&gt;。
+此外，肌小节中actin和myosin的含量没有发生改变，KPP老鼠的muscle force降低，说明肌肉的功能受到损害。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;此外，这种小鼠还呈现了一些其他多器官衰竭症状：脾脏肿大、心脏减小、白色脂肪和棕色脂肪降低，呼吸交换率（resting respiratory exchange ratio)增加。&lt;/p&gt;
+&lt;p&gt;作者还发现，在不同的时期进行诱导肿瘤，cachexia的发生也是渐进的。&lt;/p&gt;
+&lt;p&gt;最后，作者比较了KPP小鼠的转录组（control vs. tumor)，结果只发现了172个差异表达基因。并且Top5都是与胞外基质有关的基因，这一点与PDA病人的结果都是一致的。&lt;/p&gt;
+&lt;h2 id=&#34;结论&#34;&gt;结论&lt;/h2&gt;
+&lt;p&gt;KPP小鼠可能比C26, LLC移植瘤模型更适宜用来模拟胰腺导管癌恶病质发生进程。&lt;/p&gt;</description>
       
     </item>
     
