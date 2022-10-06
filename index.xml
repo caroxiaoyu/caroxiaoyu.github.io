@@ -6,7 +6,7 @@
     <description>Recent content on 努力的咸鱼</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 05 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Oct 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://caroxiaoyu.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -20,6 +20,49 @@
       
         <description>&lt;p&gt;用心感受生活，用心记录生活&lt;/p&gt;
 </description>
+      
+    </item>
+    
+    <item>
+      <title>2022-Cancer Mycobiome(1)</title>
+      <link>https://caroxiaoyu.github.io/2022/10/2022-cancer-mycobiome1/</link>
+      <pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://caroxiaoyu.github.io/2022/10/2022-cancer-mycobiome1/</guid>
+      
+        <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: A pan-cancer mycobiome analysis reveals fungal involvement in gastrointestinal and lung tumors&lt;/p&gt;
+&lt;h2 id=&#34;背景&#34;&gt;背景&lt;/h2&gt;
+&lt;p&gt;上周来自威尔康奈尔医学院的Iliyan D. Iliev教授和来自以色列维茨曼研究所的Ravid Straussman教授在Cell背靠背发表了两篇关于癌症环境存在真菌生物的文章。因此把这两篇放在一起写。由于文章
+中涉及到很多生信图，因此如果想要知道细节建议回看原文。这里仅记录下idea。&lt;/p&gt;
+&lt;h2 id=&#34;科学问题&#34;&gt;科学问题&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;What&amp;rsquo;s the role of fungi(mycobiota) in the tumor progression? Conclusive links between fungal and cancer remain elusive?&lt;/li&gt;
+&lt;li&gt;What&amp;rsquo;s the fungal composition of TCGA sequencing data?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;主要结论&#34;&gt;主要结论&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;大约10000个肿瘤细胞中含有一个真菌。&lt;/li&gt;
+&lt;li&gt;不同组织产生的肿瘤环境中的真菌种类不一样：肺癌中主要为Blastomyces(芽生菌)；胃癌中，假丝酵母生长速率与促炎相关免疫通路基因表达量有关；肠癌中，假丝酵母能够指征肿瘤转移情况。&lt;/li&gt;
+&lt;li&gt;肠道不同位置的假丝酵母种属不一样，高tumor-associated Candida DNA能够用来指证肿瘤低生存率。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;次要结论&#34;&gt;次要结论&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;大脑中几乎不含有真菌(Interesting)。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;主要方法&#34;&gt;主要方法：&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;从TCGA进行数据挖掘，选取的组织包括GI(head-nech/HNSC, esophagus, stomach, rectum); Non-GI tissues(breast, brain)。使用PathSeq检测真菌的组成情况。然后排除污染和假阳性的信号。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;通过external ITS（Internal transcribed spacer,位于核糖体大小亚基基因之间，具有高度的变异性，常用来真菌测序)测序。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;局限性&#34;&gt;局限性&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Couldn&amp;rsquo;t prove the causaility of the fungus and mycobiome.
+(不过我觉得这并不是严重的局限性，因为这也并不是它们这篇文章的主要目标)&lt;/li&gt;
+&lt;/ul&gt;</description>
       
     </item>
     

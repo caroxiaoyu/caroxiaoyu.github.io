@@ -299,70 +299,7 @@
   <header class="post-header">
     <h1 class="post-title">
       
-      <a class="post-link" href="/2022/10/2022-cancer-mycobiome1/">2022-Cancer Mycobiome(1)</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2022-10-06" class="post-time">
-        2022-10-06
-      </time>
-      <div class="post-category">
-          <a href="https://caroxiaoyu.github.io/categories/%E6%96%87%E7%8C%AE%E7%AC%94%E8%AE%B0/"> 文献笔记 </a>
-          
-        </div>
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      <p><strong>Title</strong>: A pan-cancer mycobiome analysis reveals fungal involvement in gastrointestinal and lung tumors</p>
-<h2 id="背景">背景</h2>
-<p>上周来自威尔康奈尔医学院的Iliyan D. Iliev教授和来自以色列维茨曼研究所的Ravid Straussman教授在Cell背靠背发表了两篇关于癌症环境存在真菌生物的文章。因此把这两篇放在一起写。由于文章
-中涉及到很多生信图，因此如果想要知道细节建议回看原文。这里仅记录下idea。</p>
-<h2 id="科学问题">科学问题</h2>
-<ol>
-<li>What&rsquo;s the role of fungi(mycobiota) in the tumor progression? Conclusive links between fungal and cancer remain elusive?</li>
-<li>What&rsquo;s the fungal composition of TCGA sequencing data?</li>
-</ol>
-<h2 id="主要结论">主要结论</h2>
-<ul>
-<li>大约10000个肿瘤细胞中含有一个真菌。</li>
-<li>不同组织产生的肿瘤环境中的真菌种类不一样：肺癌中主要为Blastomyces(芽生菌)；胃癌中，假丝酵母生长速率与促炎相关免疫通路基因表达量有关；肠癌中，假丝酵母能够指征肿瘤转移情况。</li>
-<li>肠道不同位置的假丝酵母种属不一样，高tumor-associated Candida DNA能够用来指证肿瘤低生存率。</li>
-</ul>
-<h3 id="次要结论">次要结论</h3>
-<ul>
-<li>大脑中几乎不含有真菌(Interesting)。</li>
-</ul>
-<h2 id="主要方法">主要方法：</h2>
-<ul>
-<li>
-<p>从TCGA进行数据挖掘，选取的组织包括GI(head-nech/HNSC, esophagus, stomach, rectum); Non-GI tissues(breast, brain)。使用PathSeq检测真菌的组成情况。然后排除污染和假阳性的信号。</p>
-</li>
-<li>
-<p>通过external ITS（Internal transcribed spacer,位于核糖体大小亚基基因之间，具有高度的变异性，常用来真菌测序)测序。</p>
-</li>
-</ul>
-<h2 id="局限性">局限性</h2>
-<ul>
-<li>Couldn&rsquo;t prove the causaility of the fungus and mycobiome.
-(不过我觉得这并不是严重的局限性，因为这也并不是它们这篇文章的主要目标)</li>
-</ul>
-    </div>
-    
-  </div>
-</article>
-
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/2022/10/2019-modeling-human-cancer-induced-cachexia/">2019-Modeling Human Cancer-induced cachexia</a>
+      <a class="post-link" href="/2022/10/%E9%87%8D%E6%96%B0%E5%BB%BA%E7%AB%8B%E5%8D%9A%E5%AE%A2/">重新建立博客</a>
     </h1>
     
     <div class="post-meta">
@@ -370,7 +307,7 @@
         2022-10-05
       </time>
       <div class="post-category">
-          <a href="https://caroxiaoyu.github.io/categories/%E6%96%87%E7%8C%AE%E7%AC%94%E8%AE%B0/"> 文献笔记 </a>
+          <a href="https://caroxiaoyu.github.io/categories/%E5%8D%9A%E5%AE%A2/"> 博客 </a>
           
         </div>
       
@@ -382,97 +319,41 @@
   <div class="post-content">
     
     <div class="post-summary">
-      <p>今后准备每天都会在这里上传一篇文献笔记。每天写一篇吧，好歹给自己的博士生涯一个交代。并且要常常阅读。</p>
-<h2 id="背景">背景</h2>
-<p>在肠癌患者中，尤其是胰腺导管癌（Pancreatic ductal adenocarcinoma, PDA）患者中，70%的人在诊断时就能够表现出恶液质。过去的认知认为只有到了癌症晚期才会出现恶病质的症状。因此作者想要建立更好的模型来模拟这种状况。</p>
-<h3 id="目前最常用的两种模型">目前最常用的两种模型</h3>
-<ul>
-<li>Colon-26： C-26模型：移植瘤模型，需要在小鼠皮下种植C-26细胞系。</li>
-<li>Lewis Lung carcinoma cell line</li>
-</ul>
+      <h2 id="前言">前言</h2>
+<p>昨天我的脑子不知道出了什么问题，把自己两年前辛苦鼓捣出来的博客给毁了。准确来说是自己用了错误的方法去解决问题，导致这个问题像雪球一样越滚越大。于是我打算用一键删除，万事重做大法，天真的以为所有的的问题都会消失。结果问题不但没有消失，还越变越复杂。我不断地重新建立github repository，不断地尝试。总算有了一点眉目。希望能够在此详细的记录下自己重新建立个人网站的过程。以史为鉴吧。</p>
+<h2 id="流程">流程</h2>
+<h3 id="使用rstudio安装blogdown">使用Rstudio安装blogdown</h3>
+<p>由于该R包是部署在github上的，因此我要解决的第一个问题就是能够翻墙访问github。通过一番查找，得知仍然是通过老套路把github的IP地址添加hosts文件下。<a href="https://ipaddress.com/website/github.com">Github的IP地址</a>。<img src="images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221005193050.png" alt="">。然后打开hosts文件。在下面添加</p>
 <blockquote>
-<p>很明显，这两种模型的不足之处在于：</p>
+<p>ssh IP Address @github.com</p>
 </blockquote>
-<ul>
-<li>不是自发肿瘤模型，由于需要皮下种植，因此不能研究肿瘤微环境对于恶液质发生的影响。</li>
-<li>too aggressive, 发生恶病质的时间窗口太短，肿瘤进展太快了。</li>
-</ul>
-<h3 id="summary">Summary</h3>
-<p>这篇文章比较了C-26模型，LLC模型以及PDA患者发生恶液质后骨骼肌的基因表达情况（这个后续自己要走一遍流程）。结果发现overlap很少。</p>
-<p>作者还验证了经典的PDA模型，Kras; p53; Cre (KPC)，发现它在研究cachexia也有很大局限。</p>
-<h2 id="比较模型">比较模型</h2>
-<h3 id="rna-seq">RNA-seq：</h3>
-<p>作者首先通过RNA-seq比较了三种模型的的恶病质表征情况（control vs. cachetic patients)。分析它们的差异基因。
-C-26, LLC， PDA分别找到了3474， 788， 141的差异基因。PDA模型中相关的基因都是与细胞胞外基质相关的。而前两种模型主要集中在RNA翻译水平的变化上。
-有意思的是，PDA模型的差异基因在癌症病人中都是下调的，而在另外两种模型中85%都是上调的（C26),或者50%上调，50%下调。</p>
-<h3 id="rt-qpcr">RT-qPCR</h3>
-<p><img src="images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221005234749.jpg" alt="">
-作者还分析三种模型的肌肉自噬与蛋白酶体降解相关的基因表达，结果都呈现了不一致的现象。</p>
-<ul>
-<li>autophagy gene: Atg5, Bnip3</li>
-<li>E3 ligases: MuRF1, Atrogin-1</li>
-</ul>
-<h2 id="验证新模型kpc-gemm-of-pda">验证新模型：KPC GEMM of PDA</h2>
-<p>K-rasLSL.G12D/+; Trp53R172H/+; Pdx-1-Cre(KPC)
-这也是一种非常常见的胰腺导管癌模型。它们发现KPC小鼠普遍比同龄小鼠个头小。
-并且KPC的DEG只有一个，同样与PDA病人中得到的结果不一致。</p>
-<h3 id="构建新模型">构建新模型</h3>
-<p>基于前面转录分析的明显差异，作者因此想要构建一种新的模型。作者从以下几个方面进行考虑：</p>
-<ul>
-<li>Model the progression of PDA</li>
-<li>induce cancer in postnatal adults</li>
-<li>establish a direct association between PDA and cachexia development: real tissue wasting are happening.</li>
-<li>develop cachexia slower that the current model. 
-因此，作者在先用的KPC模型进行改进。基因型为：Kras+/G12D, Ptf1a+/ER-Cre, Ptenf/f。
-<img src="images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221006192455.png" alt="The current cachexia model">
-作者随后进一步验证了这种模型，发现reporter gene在经过tamoxifen诱导后只在胰腺腺泡细胞中表达。
-在end point期，癌症小鼠的组织学分析明显差异：
-<img src="images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221006193227.png" alt=""></li>
-<li>Acian Blue: 表征是否有粘蛋白或者粘多糖。
-作者接下来想要评估是否KPP小鼠也患有恶液质。分别从体重、muscle masses(TA,tibialis anterior muscle，胫骨前肌；QUAD, quadriceps，四头肌；GAST, gastrocnemius腓肠肌)进行评价，发现都减少了。
-<img src="images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221006194623.png" alt="">。
-此外，肌小节中actin和myosin的含量没有发生改变，KPP老鼠的muscle force降低，说明肌肉的功能受到损害。</li>
-</ul>
-<p>此外，这种小鼠还呈现了一些其他多器官衰竭症状：脾脏肿大、心脏减小、白色脂肪和棕色脂肪降低，呼吸交换率（resting respiratory exchange ratio)增加。</p>
-<p>作者还发现，在不同的时期进行诱导肿瘤，cachexia的发生也是渐进的。</p>
-<p>最后，作者比较了KPP小鼠的转录组（control vs. tumor)，结果只发现了172个差异表达基因。并且Top5都是与胞外基质有关的基因，这一点与PDA病人的结果都是一致的。</p>
-<h2 id="结论">结论</h2>
-<p>KPP小鼠可能比C26, LLC移植瘤模型更适宜用来模拟胰腺导管癌恶病质发生进程。</p>
-    </div>
-    
-  </div>
-</article>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">install.packages</span>(<span style="color:#e6db74">&#34;blogdown&#34;</span>);
+<span style="color:#a6e22e">library</span>(blogdown)
+</code></pre></div><h3 id="使用blogdown新建website">使用blogdown新建website</h3>
+<p>选择New Project, New directory, 拖到最下面选择website with blogdown。在hugo-theme处填上自己喜欢的主题名字。
+一般需要先在<a href="https://themes.gohugo.io/">Hugo theme</a>种去选择，然后找到对应的username/theme-name。这样一个初始的主题就建好了。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">blogdown<span style="color:#f92672">::</span><span style="color:#a6e22e">build_site</span>()<span style="color:#75715e">#首先建立站点</span>
+blogdown<span style="color:#f92672">::</span><span style="color:#a6e22e">serve_site</span>()<span style="color:#75715e">#预览站点，用于本地调试用。</span>
+</code></pre></div><blockquote>
+<p>这一步会生成public文件夹，一定要注意没有生成。</p>
+</blockquote>
+<h3 id="在github新建仓库">在github新建仓库</h3>
+<p>在github上新建一个仓库，一定要注意仓库名字是username.github.io(不要随便取，这也是我刚开始忽略的点)。不要选择ReadMe.md和.gitignore文件。另一步需要安装git软件。略~~~~</p>
+<h3 id="把本地public文件夹上传到仓库">把本地public文件夹上传到仓库</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git init
+git add remote origin http://caroxiaoyu.github.io.git <span style="color:#75715e"># 将github远程库链接添加到本地</span>
+git commit -a
+git push -u origin master
 
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/2022/10/%E5%BD%92%E6%9D%A5/">归来</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2022-10-05" class="post-time">
-        2022-10-05
-      </time>
-      <div class="post-category">
-          <a href="https://caroxiaoyu.github.io/categories/%E9%9A%8F%E7%AC%94/"> 随笔 </a>
-          
-        </div>
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      <p>昨天把博客搞丢了，今天又找回来了。
-昨天的笔记如下：
-我再也不想折腾github博客了，我不知道为什么public文件无法编译。一遍又一遍的删除重新建仓库。向一个机械人一样，这是人应该做的事吗！！！
-告辞，hugo + github以后我就每天用notion做笔记
-真是光速打脸啊！</p>
+</code></pre></div><p>此时在github setting里面选择Pages，稍等一会儿能够看到如下界面：
+<img src="images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221005200201.png" alt="">。访问该站点，该博客就建立成功啦。</p>
+<h2 id="总结一些遇到的坑">总结一些遇到的坑</h2>
+<ol>
+<li>需要修改hosts文件才能访问github。</li>
+<li>整个过程不需要添加ssh密钥。</li>
+<li>git使用的3步：add, commit, push。如果仓库已经有东西了，这时不能再把本地的push过去，会产生冲突。</li>
+<li>创建post时，draft要选择false，否则不会出现在public文件夹中。</li>
+</ol>
     </div>
     
   </div>
@@ -506,11 +387,11 @@ C-26, LLC， PDA分别找到了3474， 788， 141的差异基因。PDA模型中�
   <nav class="pagination">
     <ul>
       
-      <li  class="active" >
+      <li >
         <a href="/">1</a>
       </li>
       
-      <li >
+      <li  class="active" >
         <a href="/page/2/">2</a>
       </li>
       
