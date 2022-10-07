@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>努力的咸鱼</title>
+    <title>Sisyphus&#39;s lighthouse</title>
     <link>https://caroxiaoyu.github.io/</link>
-    <description>Recent content on 努力的咸鱼</description>
+    <description>Recent content on Sisyphus&#39;s lighthouse</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 06 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Oct 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://caroxiaoyu.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -20,6 +20,72 @@
       
         <description>&lt;p&gt;用心感受生活，用心记录生活&lt;/p&gt;
 </description>
+      
+    </item>
+    
+    <item>
+      <title>2022-Mycobiome(2)</title>
+      <link>https://caroxiaoyu.github.io/2022/10/2022-mycobiome2/</link>
+      <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://caroxiaoyu.github.io/2022/10/2022-mycobiome2/</guid>
+      
+        <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Pan-cancer analyses reveal cancer-type-specific fungal ecologies and bacteriome interactions&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221007144518.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;摘要&#34;&gt;摘要&lt;/h2&gt;
+&lt;p&gt;这篇文章对35种癌症种的真菌进行了分析，揭示了它们的分布特征、与免疫细胞的联系系以及与肿瘤菌群之间的互作关系。
+(This article is more experimental than the other one😊)&lt;/p&gt;
+&lt;h2 id=&#34;研究结果&#34;&gt;研究结果&lt;/h2&gt;
+&lt;h3 id=&#34;sample-info&#34;&gt;Sample Info&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;17401 patient tissue, blood and plasma across 35 cancer types in four independent cohorts.&lt;img src=&#34;images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221007150022.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;其中1个cohort和去年分析最早characterize细菌的文章是同一个。同样引入了paraffin-only和DNA-extraction negative control作为decontamination的参考&lt;/li&gt;
+&lt;li&gt;另外一个cohort来自TCGA数据库。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;真菌定量&#34;&gt;真菌定量&lt;/h3&gt;
+&lt;p&gt;作者针对真菌的5.8S核糖体序列，进行荧光定量qCPR。结果发现Breast和Bone中的真菌含量更多。
+&lt;img src=&#34;images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221007151718.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;self-assessment&#34;&gt;Self-assessment&lt;/h4&gt;
+&lt;p&gt;在TCGA分析中，细菌的reads数目显著高于真菌reads。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Note: The advantage and disadvantage of WIS and TCGA cohorts:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;WIS: 一系列无菌操作，对组织进行研磨能够最大程度释放组织中的微生物。并且能够引入空白对照，能够进行成像观察。但是和细菌的16S测序类似，真菌特异性的ITS2 amplicon测序只能够只能测到属，taxonomic resolution。&lt;/li&gt;
+&lt;li&gt;TCGA：宏基因组测序，几乎能够测到所有的真菌基因组。但是只能进行in silico decontamination。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;没有一种方法是完美，作者最终综合两个cohort的结果overlap后来推断真菌的数目。&lt;/p&gt;
+&lt;h3 id=&#34;真菌定性观察&#34;&gt;真菌定性观察&lt;/h3&gt;
+&lt;p&gt;作者一共进行了4种染色方法来观察真菌。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a fungal cell wall-specific anti-b-glucan antibody with a high false-negative rate.&lt;/li&gt;
+&lt;li&gt;an anti-Aspergillus antibody that also binds several additional fungal species.&lt;/li&gt;
+&lt;li&gt;fluorescence in situ hybridization (FISH) against three conserved fungal 28S rRNA sequences with selective sensitivity for yeast over hyphal morphologies due to lower hyphae probe penetration.&lt;/li&gt;
+&lt;li&gt;f&lt;img src=&#34;images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221007153457.png&#34; alt=&#34;&#34;&gt;ungal cell wall-specific Gomori methenamine silver (GMS) stain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;intratumoral-mycobiome-bacteriome-immunome-interactions&#34;&gt;Intratumoral mycobiome-bacteriome-immunome interactions&lt;/h3&gt;
+&lt;p&gt;Breast cancer is most prevalant co-occurrence spot between fungal and bacteria.&lt;/p&gt;
+&lt;h3 id=&#34;clinical-utility-of-cancer-mycobiome&#34;&gt;Clinical utility of cancer mycobiome&lt;/h3&gt;
+&lt;p&gt;Just some examples.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;associate the fungal with disease phenotype, patient survival, and treatment response.
+&lt;img src=&#34;images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221007154644.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;局限性&#34;&gt;局限性&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;The cohort variation exists.&lt;/li&gt;
+&lt;li&gt;The fungal identified may be incomplete. In TCGA analysis, the fungal shows low per-sample genome coverage(undersampling?falsely assignments?)&lt;/li&gt;
+&lt;li&gt;low biomass, so false-positive results exist. There are no match normal tissues. Inperferect staining methods with varied sensitivity.&lt;/li&gt;
+&lt;li&gt;couldn&amp;rsquo;t explain the causility between cancer progression and fungal.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;take-home-ideas&#34;&gt;Take home ideas&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Even if previous researchers have shown that fungi may play a role in cancer microenvironment, this resaerch shows that systematically(specifically, the pattern), they win.&lt;/li&gt;
+&lt;li&gt;Decontamination can be done either experimentally or &lt;em&gt;in silico&lt;/em&gt;, as long as it&amp;rsquo;s a robust method. Again, all roads lead to Rome.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cancermycobiome.ucsd.edu/&#34;&gt;http://cancermycobiome.ucsd.edu/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
       
     </item>
     
