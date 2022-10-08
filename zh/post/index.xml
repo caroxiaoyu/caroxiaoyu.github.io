@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Sisyphus&#39;s lighthouse</title>
+    <link>https://caroxiaoyu.github.io/zh/post/</link>
+    <description>Recent content in Posts on Sisyphus&#39;s lighthouse</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 07 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://caroxiaoyu.github.io/zh/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022-Mycobiome(2)</title>
+      <link>https://caroxiaoyu.github.io/zh/2022/10/2022-mycobiome2/</link>
+      <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://caroxiaoyu.github.io/zh/2022/10/2022-mycobiome2/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Pan-cancer analyses reveal cancer-type-specific fungal ecologies and bacteriome interactions&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>批判性思考-可信性</title>
+      <link>https://caroxiaoyu.github.io/zh/2022/10/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E8%80%83-%E5%8F%AF%E4%BF%A1%E6%80%A7/</link>
+      <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://caroxiaoyu.github.io/zh/2022/10/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E8%80%83-%E5%8F%AF%E4%BF%A1%E6%80%A7/</guid>
+      <description>&lt;p&gt;本书作者为美国作家Brooke Noel Moore和Richard Parker。这一篇文章介绍了如何判断一项论题的可信程度。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2022-Cancer Mycobiome(1)</title>
+      <link>https://caroxiaoyu.github.io/zh/2022/10/2022-cancer-mycobiome1/</link>
+      <pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://caroxiaoyu.github.io/zh/2022/10/2022-cancer-mycobiome1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2019-Modeling Human Cancer-induced cachexia</title>
+      <link>https://caroxiaoyu.github.io/zh/2022/10/2019-modeling-human-cancer-induced-cachexia/</link>
+      <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://caroxiaoyu.github.io/zh/2022/10/2019-modeling-human-cancer-induced-cachexia/</guid>
+      <description>&lt;p&gt;今后准备每天都会在这里上传一篇文献笔记。每天写一篇吧，好歹给自己的博士生涯一个交代。并且要常常阅读。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>归来</title>
+      <link>https://caroxiaoyu.github.io/zh/2022/10/%E5%BD%92%E6%9D%A5/</link>
+      <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://caroxiaoyu.github.io/zh/2022/10/%E5%BD%92%E6%9D%A5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>重新建立博客</title>
+      <link>https://caroxiaoyu.github.io/zh/2022/10/%E9%87%8D%E6%96%B0%E5%BB%BA%E7%AB%8B%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://caroxiaoyu.github.io/zh/2022/10/%E9%87%8D%E6%96%B0%E5%BB%BA%E7%AB%8B%E5%8D%9A%E5%AE%A2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

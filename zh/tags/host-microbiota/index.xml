@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>host microbiota on Sisyphus&#39;s lighthouse</title>
+    <link>https://caroxiaoyu.github.io/zh/tags/host-microbiota/</link>
+    <description>Recent content in host microbiota on Sisyphus&#39;s lighthouse</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 07 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://caroxiaoyu.github.io/zh/tags/host-microbiota/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022-Mycobiome(2)</title>
+      <link>https://caroxiaoyu.github.io/zh/2022/10/2022-mycobiome2/</link>
+      <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://caroxiaoyu.github.io/zh/2022/10/2022-mycobiome2/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Pan-cancer analyses reveal cancer-type-specific fungal ecologies and bacteriome interactions&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2022-Cancer Mycobiome(1)</title>
+      <link>https://caroxiaoyu.github.io/zh/2022/10/2022-cancer-mycobiome1/</link>
+      <pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://caroxiaoyu.github.io/zh/2022/10/2022-cancer-mycobiome1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
