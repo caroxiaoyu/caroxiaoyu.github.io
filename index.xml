@@ -31,8 +31,47 @@
       <guid>https://caroxiaoyu.github.io/2022/10/gut-barrier-dysfunction-in-the-colon-cancer-cachexia/</guid>
       
         <description>&lt;p&gt;&lt;img src=&#34;images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221009095908.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;question&#34;&gt;Question&lt;/h2&gt;
+&lt;p&gt;A = Apc/min tumor model
+B = LPS induced endotoxin
+C = reduced temperature. 
+Known： A causes B, B causes C. If they observe C, can they state that in this context A-B-C confidently?&lt;/p&gt;
 &lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
-&lt;p&gt;The ApcMin(multiple intestinal neoplasia)/+ mouse, an animal model of colorectal cancer and cachexia(This mutant is a allele of APC mutant and show APC loss. Note that this model are also prone to develop mammary tumor as well), has a heterogenous mutation in the Apc tumor suppressor gene, predisposing the mouse to intestinal and colon tumor development. This mouse develops intestinal polyps by &lt;strong&gt;~4 weeks&lt;/strong&gt; of age, and loses body weight gradually between ~ 14 and ~ 20 weeks of age. The strengths of this cachexia model derive from several features that mimic human cancer, including &lt;strong&gt;a gradual increase in tumor burden, chronic inflammation, and anemia&lt;/strong&gt;.&lt;/p&gt;</description>
+&lt;p&gt;The ApcMin(multiple intestinal neoplasia)/+ mouse, an animal model of colorectal cancer and cachexia(This mutant is a allele of APC mutant and show APC  because it encodes a nonsense mutation of it. Note that this model are also prone to develop mammary tumor as well), has a heterogenous mutation in the Apc tumor suppressor gene, predisposing the mouse to intestinal and colon tumor development. This mouse develops intestinal polyps by &lt;strong&gt;~4 weeks&lt;/strong&gt; of age, and loses body weight gradually between ~ 14 and ~ 20 weeks of age. The strengths of this cachexia model derive from several features that mimic human cancer, including &lt;strong&gt;a gradual increase in tumor burden, chronic inflammation, and anemia&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;HS/R model: hemorrhagic shock（出血性休克） followed by resuscitation(revival): previous studies have shown that this model can induce GBD(gut barrier dysfunction) and this requires IL-6(because IL-6 knockout mice doesn&amp;rsquo;t develop GBD).&lt;/p&gt;
+&lt;h3 id=&#34;rationaleimages微信图片_20221009110248png&#34;&gt;Rationale&lt;img src=&#34;images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221009110248.png&#34; alt=&#34;&#34;&gt;&lt;/h3&gt;
+&lt;p&gt;The observation that IL-6 is required, but not sufficient, for development of cachexia in both the ApcMin/+ [8] and HS/R models [21], and that GBD is implicated in the pathogenesis of cachexia in the HS/R model led us to investigate the possible role of GBD and endotoxemia in development and progression of cachexia in the ApcMin/+ mouse.&lt;/p&gt;
+&lt;h2 id=&#34;method&#34;&gt;Method&lt;/h2&gt;
+&lt;p&gt;Mice: C57BL/6 and ApcMin/+.
+FD4: FITC-dextran, a neutral hydrophilic polymers. 
+&lt;img src=&#34;images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221009102651.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;il-6-overexpression&#34;&gt;IL-6 overexpression&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221009102817.png&#34; alt=&#34;&#34;&gt;
+How to measure plasma endotoxin:&lt;/p&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;This tumor mice lose body weight until 12 weeks. By 20 weeks, they lose 20-25% weight of their littermates. IL-6 increase along with the cancern cachexia progression. 
+&lt;img src=&#34;images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221009103737.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Besides, they show GBD at 12-14 weeks of age. 
+And the endotoxin levels increase at 19 weeks age.&lt;br&gt;
+&lt;img src=&#34;images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221009103605.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;other-observations&#34;&gt;Other observations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;reduced temperature.&lt;/li&gt;
+&lt;li&gt;hypertriglyceridemia, it also show delayed glucose
+clearance.&lt;/li&gt;
+&lt;li&gt;enlarged mesenteric lymph nodes.
+&lt;img src=&#34;images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221009105450.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;conclusions&#34;&gt;Conclusions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;developed both direct and indirect evidence supporting a role for endotoxemia in development of cachexia in the ApcMin/+ mouse model of colon cancer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;new-ideas&#34;&gt;New ideas&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Possible source of GBD: &lt;strong&gt;macrophage infiltration&lt;/strong&gt;, tumor growth; changes in mucin secretion; decreased splanchnic blood flow and resultant hypoxia.&lt;/li&gt;
+&lt;li&gt;GBD and &lt;strong&gt;endotoxemia&lt;/strong&gt; are associated with, and perhaps the immediate cause of, both inflammation and cachexia.(Are different cause have hierarchy levels?).&lt;/li&gt;
+&lt;li&gt;Pancreatic cancer, lung cancer, colon cancer have a high frequency of cachexia.&lt;/li&gt;
+&lt;/ul&gt;</description>
       
     </item>
     
