@@ -8,14 +8,70 @@
   </url>
   
   <url>
-    <loc>https://caroxiaoyu.github.io/tags/cachexia/</loc>
-    <lastmod>2022-10-09T09:50:26+08:00</lastmod>
+    <loc>https://caroxiaoyu.github.io/tags/cancer-stem-cell/</loc>
+    <lastmod>2022-10-10T20:39:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://caroxiaoyu.github.io/categories/</loc>
+    <lastmod>2022-10-10T20:39:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://caroxiaoyu.github.io/tags/lipid-metabolism/</loc>
+    <lastmod>2022-10-10T20:39:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://caroxiaoyu.github.io/post/</loc>
+    <lastmod>2022-10-10T20:39:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://caroxiaoyu.github.io/</loc>
+    <lastmod>2022-10-10T20:39:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://caroxiaoyu.github.io/tags/</loc>
+    <lastmod>2022-10-10T20:39:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://caroxiaoyu.github.io/2022/10/the-lipolysis-pathway-sustains-normal-and-transformed-stem-cells-in-adult-drosophila/</loc>
+    <lastmod>2022-10-10T20:39:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://caroxiaoyu.github.io/categories/%E6%96%87%E7%8C%AE%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2022-10-10T20:39:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://caroxiaoyu.github.io/tags/bioinfomatics/</loc>
+    <lastmod>2022-10-09T15:02:07+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://caroxiaoyu.github.io/tags/cachexia/</loc>
     <lastmod>2022-10-09T09:50:26+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -43,29 +99,8 @@
   </url>
   
   <url>
-    <loc>https://caroxiaoyu.github.io/post/</loc>
-    <lastmod>2022-10-09T09:50:26+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://caroxiaoyu.github.io/</loc>
-    <lastmod>2022-10-09T09:50:26+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://caroxiaoyu.github.io/tags/</loc>
-    <lastmod>2022-10-09T09:50:26+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://caroxiaoyu.github.io/categories/%E6%96%87%E7%8C%AE%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2022-10-09T09:50:26+08:00</lastmod>
+    <loc>https://caroxiaoyu.github.io/2022/10/making-use-of-cancer-genomic-databases/</loc>
+    <lastmod>2022-10-09T15:02:07+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
